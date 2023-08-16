@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const CaruselCompany = () => {
-  return (
-    <div>CaruselCompany</div>
-  )
-}
+const CaruselCom = () => {
+  return <div>CaruselCom</div>;
+};
 
-export default CaruselCompany
+export default CaruselCom;
