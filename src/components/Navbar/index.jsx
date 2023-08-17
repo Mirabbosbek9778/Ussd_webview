@@ -1,4 +1,3 @@
-import React from 'react';
 import { Segmented, Space } from 'antd';
 import { MainTabIcon, Services, Settings } from '../iconsStyle/index.js';
 import { Title } from './style.js';
