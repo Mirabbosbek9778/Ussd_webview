@@ -1,47 +1,43 @@
-import React from 'react';
-import { Segmented, Space } from 'antd';
-import { MainTabIcon, Services, Settings } from '../iconsStyle/index.js';
+import { useState } from 'react';
+import {
+  MainTabIcon,
+  Services,
+  Settings,
+  ActiveMainTabIcon,
+  ActiveServices,
+  ActiveSettings,
+} from '../iconsStyle/index.js';
 import { Title } from './style.js';
 
-const Navbar = () => (
-  <div className='p-4 text-center rounded-t-lg bg-[var(--background-color)] '>
-    <Space direction='vertical' style={{ backgroundColor: 'white' }}>
-      <Segmented
-        onChange={(e) => console.log(e)}
-        color='white'
-        options={[
-          {
-            label: (
-              <div className='w-auto px-0  flex justify-center items-center flex-col'>
-                <MainTabIcon />
-                <Title className=''>Asosiy</Title>
-              </div>
-            ),
-            value: 'user1',
-          },
-          {
-            label: (
-              <div className='flex justify-center items-center flex-col'>
-                <Services />
-                <Title>Xizmatlar</Title>
-              </div>
-            ),
-            value: 'user2',
-          },
-          {
-            label: (
-              <div className='flex justify-center items-center flex-col'>
-                <Settings />
-                <Title>Sozlamalar</Title>
-              </div>
-            ),
-            value: 'user3',
-          },
-        ]}
-        size='middle'
-      />
-    </Space>
-  </div>
-);
-
+const Navbar = () => {
+  const [active, setActive] = useState('');
+  console.log(active);
+  return (
+    <div className='p-4 text-center rounded-t-lg bg-[var(--background-color)] mx-0 '>
+      <div className='flex justify-center gap-16'>
+        <div
+          className='flex justify-center items-center flex-col cursor-pointer'
+          onClick={() => setActive('main')}
+        >
+          {active == 'main' ? <ActiveMainTabIcon /> : <MainTabIcon />}
+          <Title color={active == 'main' && true}>Asosiy</Title>
+        </div>
+        <div
+          className='flex justify-center items-center flex-col cursor-pointer'
+          onClick={() => setActive('services')}
+        >
+          {active == 'services' ? <ActiveServices /> : <Services />}
+          <Title color={active == 'services' && true}>Xizmatlar</Title>
+        </div>
+        <div
+          className='flex justify-center items-center flex-col cursor-pointer'
+          onClick={() => setActive('settings')}
+        >
+          {active == 'settings' ? <ActiveSettings /> : <Settings />}
+          <Title color={active == 'settings' && true}>Sozlamalar</Title>
+        </div>
+      </div>
+    </div>
+  );
+};
 export default Navbar;

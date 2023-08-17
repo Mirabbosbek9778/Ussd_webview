@@ -1,0 +1,5 @@
+@layer components {
+    .category-card {
+        @apply w-11/12 flex items-center my-5 h-[80px] bg-[var(--card-color)] rounded-md justify-around shadow
+    }
+}
