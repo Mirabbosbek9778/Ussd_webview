@@ -7,7 +7,8 @@ const MainTabIcon = styled(MainIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
-    stroke: ${({ color }) => color || 'var( --icon-color)'};
+    stroke: ${({ color }) => color || 'white'};
+    fill: ${({ color }) => color || 'var(--ussd-color)'};
   }
 `;
 
@@ -15,8 +16,8 @@ const Services = styled(ServicesIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
-    fill: ${({ color }) => color || 'var(--icon-size)'};
-    stroke: ${({ color }) => color || 'var(--icon-color)'};
+    /* fill: ${({ color }) => color || 'var(--icon-size)'}; */
+    stroke: ${({ color }) => color};
   }
 `;
 
