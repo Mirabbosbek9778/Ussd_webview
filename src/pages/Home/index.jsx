@@ -2,9 +2,11 @@ import Carosel from '../../components/Carusel';
 import Navbar from '../../components/Navbar';
 const index = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full '>
       <Carosel />
-      <Navbar />
+      <div className='w-full absolute bottom-0 '>
+        <Navbar />
+      </div>
     </div>
   );
 };

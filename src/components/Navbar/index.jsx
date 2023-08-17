@@ -4,10 +4,11 @@ import { MainTabIcon, Services, Settings } from '../iconsStyle/index.js';
 import { Title } from './style.js';
 
 const Navbar = () => (
-  <div className='p-4'>
-    <Space direction='vertical'>
+  <div className='p-4 text-center rounded-t-lg bg-[var(--background-color)] '>
+    <Space direction='vertical' style={{ backgroundColor: 'white' }}>
       <Segmented
         onChange={(e) => console.log(e)}
+        color='white'
         options={[
           {
             label: (
@@ -31,7 +32,7 @@ const Navbar = () => (
             label: (
               <div className='flex justify-center items-center flex-col'>
                 <Settings />
-                <Title>User 3</Title>
+                <Title>Sozlamalar</Title>
               </div>
             ),
             value: 'user3',
