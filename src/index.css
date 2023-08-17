@@ -31,3 +31,7 @@
   box-shadow: none !important;
   color: transparent !important;
 }
+
+.ant-segmented {
+  background-color: var(--background-color);
+}
