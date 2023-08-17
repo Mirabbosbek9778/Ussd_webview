@@ -1,3 +1,45 @@
+import {
+  internetMenuIcon,
+  operatorMenuIcon,
+  restMenuIcon,
+  serviceMenuIcon,
+  tarifMenuIcon,
+  ussdMenuIcon,
+} from "../assets";
+
+export const category = [
+  {
+    id: 1,
+    name: "Ussd kodlar",
+    icon: ussdMenuIcon,
+  },
+  {
+    id: 2,
+    name: "Tarif rejalar",
+    icon: tarifMenuIcon,
+  },
+  {
+    id: 3,
+    name: "Internet",
+    icon: internetMenuIcon,
+  },
+  {
+    id: 4,
+    name: "Xizmatlar",
+    icon: serviceMenuIcon,
+  },
+  {
+    id: 5,
+    name: "Restart xizmati",
+    icon: restMenuIcon,
+  },
+//   {
+//     id: 6,
+//     name: "Operator bilan bog’lanish",
+//     icon: operatorMenuIcon,
+//   },
+];
+
 export const sms = [
   {
     category_id: 1,
