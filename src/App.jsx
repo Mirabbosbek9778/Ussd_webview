@@ -1,9 +1,12 @@
-import { BrowserRouter } from 'react-router-dom';
-import { Routes } from './routes';
+import { BrowserRouter } from "react-router-dom";
+import { Routes } from "./routes";
+import Container from "./components/Generic/container/Continer";
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes />
+      <Container>
+        <Routes />
+      </Container>
     </BrowserRouter>
   );
 };
