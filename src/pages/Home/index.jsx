@@ -1,5 +1,9 @@
+import Carosel from "../../components/Carusel";
+
 const index = () => {
-  return <div>Home</div>;
+  return <div className="w-full">
+   <Carosel />
+  </div>;
 };
 
 export default index;
