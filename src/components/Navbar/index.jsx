@@ -1,44 +1,46 @@
 import React from 'react';
-import { Tabs } from 'antd';
+import { Segmented, Space } from 'antd';
 import { MainTabIcon, Services, Settings } from '../iconsStyle/index.js';
-const onChange = (key) => {
-  console.log(key);
-};
-
-const items = [
-  {
-    key: '1',
-    label: <MainTabIcon />,
-  },
-  {
-    key: '2',
-    label: (
-      <>
-        <Services /> <p>Xizmatlar</p>
-      </>
-    ),
-    closeIcon: false,
-  },
-  {
-    key: '3',
-    label: <Settings />,
-  },
-];
+import { Title } from './style.js';
 
 const Navbar = () => (
-  <Tabs
-    defaultActiveKey='1'
-    tabPosition='bottom'
-    items={items}
-    type='line'
-    centered
-    animated='false'
-    moreIcon='false'
-    onTabScroll={(e) => {
-      console.log(e);
-    }}
-    onChange={onChange}
-  />
+  <div className='p-4'>
+    <Space direction='vertical'>
+      <Segmented
+        onChange={(e) => console.log(e)}
+        options={[
+          {
+            label: (
+              <div className='w-auto px-0  flex justify-center items-center flex-col'>
+                <MainTabIcon />
+                <Title className=''>Asosiy</Title>
+              </div>
+            ),
+            value: 'user1',
+          },
+          {
+            label: (
+              <div className='flex justify-center items-center flex-col'>
+                <Services />
+                <Title>Xizmatlar</Title>
+              </div>
+            ),
+            value: 'user2',
+          },
+          {
+            label: (
+              <div className='flex justify-center items-center flex-col'>
+                <Settings />
+                <Title>User 3</Title>
+              </div>
+            ),
+            value: 'user3',
+          },
+        ]}
+        size='middle'
+      />
+    </Space>
+  </div>
 );
 
 export default Navbar;

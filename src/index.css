@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Roboto:wght@300;400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,4 +14,20 @@
   --card-color: #ffffff;
   --icon-color: #5a5a5a;
   --icon-size: 24px;
+}
+
+.ant-segmented-item-label {
+  padding: 0 !important;
+}
+.ant-segmented-thumb {
+  display: none;
+}
+.ant-segmented-group {
+  gap: 64px;
+}
+
+.ant-segmented-item-selected {
+  background: transparent !important;
+  box-shadow: none !important;
+  color: transparent !important;
 }
