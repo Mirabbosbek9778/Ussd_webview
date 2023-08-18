@@ -6,6 +6,6 @@ export const Title = styled.div`
   font-family: Okta Neue, sans-serif;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
 `;
