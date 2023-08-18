@@ -14,7 +14,7 @@ const Navbar = () => {
   console.log(active);
   return (
     <div className='p-4 text-center rounded-t-lg bg-[var(--background-color)] mx-0 '>
-      <div className='flex justify-center gap-16'>
+      <div className='flex justify-around gap-16'>
         <div
           className='flex justify-center items-center flex-col cursor-pointer'
           onClick={() => setActive('main')}
