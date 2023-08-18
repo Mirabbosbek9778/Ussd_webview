@@ -2,8 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import 'tailwindcss/components';
-@import "./styles/components.css"; */
 
 :root {
   --bg-color: #f6f6f6;
@@ -21,9 +19,11 @@
 .ant-segmented-item-label {
   padding: 0 !important;
 }
+
 .ant-segmented-thumb {
   display: none;
 }
+
 .ant-segmented-group {
   gap: 64px;
 }
