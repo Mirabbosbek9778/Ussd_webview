@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --bg-color: #f6f6f6;
   --ussd-color: #0073ff;
