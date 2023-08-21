@@ -15,6 +15,8 @@
   --card-color: #ffffff;
   --icon-color: #5a5a5a;
   --icon-size: 24px;
+  --text-size: 14px;
+  
 }
 
 .ant-segmented-item-label {
@@ -38,5 +40,3 @@
 .ant-segmented {
   background-color: var(--background-color);
 }
-
-
