@@ -6,7 +6,7 @@ padding: 18px 14px;
 justify-content: space-between;
 align-items: flex-start;
 border-radius: 12px;
-margin: 16px 0;
+margin: 8px 0;
 border: 1px solid var(--gray-100, #F6F6F6);
 background: var(--white, #FFF);
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
