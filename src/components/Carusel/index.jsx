@@ -12,10 +12,10 @@ import { sildes } from "../../mock/silide";
 export default function Carosel() {
   return (
     <Fragment>
-      <div className="w-max-[700px] h-[230px] bg-white">
+      <div className="w-max-[375px] h-[190px] bg-white">
         <Swiper
           // spaceBetween={}
-          slidesPerView={1.2}
+          slidesPerView={1}
           pagination={{ clickable: true }}
           modules={[Navigation ]}
           className="w-full h-full"

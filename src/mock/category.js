@@ -1,6 +1,5 @@
 import {
   internetMenuIcon,
-  operatorMenuIcon,
   restMenuIcon,
   serviceMenuIcon,
   tarifMenuIcon,
@@ -33,11 +32,6 @@ export const category = [
     name: "Restart xizmati",
     icon: restMenuIcon,
   },
-  //   {
-  //     id: 6,
-  //     name: "Operator bilan bog’lanish",
-  //     icon: operatorMenuIcon,
-  //   },
 ];
 
 export const sms = [
