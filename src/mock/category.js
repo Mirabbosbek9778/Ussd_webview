@@ -7,6 +7,10 @@ import {
   ussdMenuIcon,
 } from "../assets";
 
+import messageIcon from "../assets/icons/messageIcon.svg";
+import phoneIcons from "../assets/icons/phoneIcons.svg";
+import globusinternet from "../assets/icons/internetGlobus.svg";
+
 export const category = [
   {
     id: 1,
@@ -33,7 +37,6 @@ export const category = [
     name: "Restart xizmati",
     icon: restMenuIcon,
   },
-
 ];
 
 export const sms = [
@@ -115,47 +118,58 @@ export const internet = [
     ],
   },
 ];
-export const UssdCodes = [{
-  id: 1,
-  title: "Shaxsiy raqamingizni  tekshirish",
-  code: "*100*4#",
-}, {
-  id: 2,
-  title: "Shaxsiy balansingizni tekshirish",
-  code: "*100*5*",
-}, {
-  id: 3,
-  title: "Batafsil hisobot",
-  code: "*100*2#",
-}, {
-  id: 4,
-  title: "4G  akitv qilish ",
-  code: "*111*1*7*1#",
-}, {
-  id: 5,
-  title: "4G aktivatisiyadan o'chirish ",
-  code: "*111*1*7*2#",
-}, {
-  id: 6,
-  title: "Sizga qo'g'iroq qilishdi xizmati ",
-  code: "*111*2*4*1#",
-}, {
-  id: 7,
-  title: "Qulay almashinuv xizmati ",
-  code: "*545#",
-}, {
-  id: 8,
-  title: "Qo'shimcha balans ",
-  code: "*150#",
-}, {
-  id: 9,
-  title: "Pullik  hizmatlarni  o'chirish ",
-  code: "*199#",
-}, {
-  id: 10,
-  title: "Menga  qong'iroq  qiling  xizmati",
-  code: "*126*998xx xxx xx xx#",
-}];
+export const UssdCodes = [
+  {
+    id: 1,
+    title: "Shaxsiy raqamingizni  tekshirish",
+    code: "*100*4#",
+  },
+  {
+    id: 2,
+    title: "Shaxsiy balansingizni tekshirish",
+    code: "*100*5*",
+  },
+  {
+    id: 3,
+    title: "Batafsil hisobot",
+    code: "*100*2#",
+  },
+  {
+    id: 4,
+    title: "4G  akitv qilish ",
+    code: "*111*1*7*1#",
+  },
+  {
+    id: 5,
+    title: "4G aktivatisiyadan o'chirish ",
+    code: "*111*1*7*2#",
+  },
+  {
+    id: 6,
+    title: "Sizga qo'g'iroq qilishdi xizmati ",
+    code: "*111*2*4*1#",
+  },
+  {
+    id: 7,
+    title: "Qulay almashinuv xizmati ",
+    code: "*545#",
+  },
+  {
+    id: 8,
+    title: "Qo'shimcha balans ",
+    code: "*150#",
+  },
+  {
+    id: 9,
+    title: "Pullik  hizmatlarni  o'chirish ",
+    code: "*199#",
+  },
+  {
+    id: 10,
+    title: "Menga  qong'iroq  qiling  xizmati",
+    code: "*126*998xx xxx xx xx#",
+  },
+];
 export const phone = [
   {
     category_id: 3,
@@ -210,10 +224,13 @@ export const tariff = [
         time: "",
         ussd_code: "*100#",
         price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
+        sms: 0,
+        minutes: "Cheksiz",
+        internet: "6GB",
         description: "bu yerda description bo'ladi",
+        imginternet: globusinternet,
+        imginternet2: phoneIcons,
+        imginternet3: messageIcon,
       },
       {
         id: 2,
@@ -223,10 +240,13 @@ export const tariff = [
         time: "",
         ussd_code: "*100#",
         price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
+        sms: 0,
+        minutes: "Cheksiz",
+        internet: "6GB",
         description: "bu yerda description bo'ladi",
+        imginternet: globusinternet,
+        imginternet2: phoneIcons,
+        imginternet3: messageIcon,
       },
       {
         id: 3,
@@ -236,10 +256,13 @@ export const tariff = [
         time: "",
         ussd_code: "*100#",
         price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
+        sms: 0,
+        minutes: "Cheksiz",
+        internet: "6GB",
         description: "bu yerda description bo'ladi",
+        imginternet: globusinternet,
+        imginternet2: phoneIcons,
+        imginternet3: messageIcon,
       },
     ],
   },

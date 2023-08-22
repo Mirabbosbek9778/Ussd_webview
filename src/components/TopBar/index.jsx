@@ -1,21 +1,21 @@
 import React from "react";
-import { Navbar } from "./style";
-import arrowLeft from "../../assets/icons/arrowL.svg";
+import { BoxItem, Navbar, TextContainer, TextItem } from "./style";
 import { Link } from "react-router-dom";
+import arrowLeft from "../../assets/icons/arrowL.svg";
 
-const TopBar = () => {
+const TopBar = (props) => {
   return (
     <Navbar>
-      <div className="flex items-center pt-[50px]">
-        <div className="">
+      <BoxItem>
+        <div>
           <Link to={"/"}>
-            <img src={arrowLeft} alt="" />
+            <img src={arrowLeft} alt="Back" />
           </Link>
         </div>
-        <div className="flex justify-center flex-1 pr-[20px]">
-          <p className="text-white">USSD kodlar</p>
-        </div>
-      </div>
+        <TextContainer>
+          <TextItem>{props.title}</TextItem>
+        </TextContainer>
+      </BoxItem>
     </Navbar>
   );
 };

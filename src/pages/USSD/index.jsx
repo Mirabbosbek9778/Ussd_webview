@@ -1,10 +1,10 @@
-import React from 'react';
-import TopBar from '../../components/TopBar';
-import USSDList from "./Ussd"
+import React from "react";
+import TopBar from "../../components/TopBar";
+import USSDList from "./Ussd";
 const USSD = () => {
   return (
     <div>
-      <TopBar />
+      <TopBar title="USSD Kodlar" />
       <USSDList />
     </div>
   );
