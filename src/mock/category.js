@@ -77,24 +77,24 @@ export const sms = [
 export const internet = [
   {
     category_id: 2,
-    name: "Internet",
+    name: "30 kunlik paketlar",
     company_name: "Beeline",
     pakets: [
       {
         id: 1,
         package_name: "1 GB",
         category_id: 2,
-        deadline: "oylik",
+        deadline: "30 kun",
         time: "",
         ussd_code: "*100#",
-        price: 15000,
+        price: 9000,
         description: "bu yerda description bo'ladi",
       },
       {
         id: 2,
-        package_name: "10 GB",
+        package_name: "1.5 GB",
         category_id: 2,
-        deadline: "haftalik",
+        deadline: "30 kun",
         time: "",
         ussd_code: "*100#",
         price: 15000,
@@ -102,14 +102,55 @@ export const internet = [
       },
       {
         id: 3,
-        package_name: "15 GB",
+        package_name: "2 GB",
         category_id: 2,
-        deadline: "kunlik",
+        deadline: "30 kun",
         time: "",
         ussd_code: "*100#",
         price: 15000,
         description: "bu yerda description bo'ladi",
       },
+
+    ],
+  },
+];
+export const internetDaily = [
+  {
+    category_id: 3,
+    name: "Kunlik paketlar",
+    company_name: "Beeline",
+    pakets: [
+      {
+        id: 1,
+        package_name: "1 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 9000,
+        description: "bu yerda description bo'ladi",
+      },
+      {
+        id: 2,
+        package_name: "1.5 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 15000,
+        description: "bu yerda description bo'ladi",
+      },
+      {
+        id: 3,
+        package_name: "2 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 15000,
+        description: "bu yerda description bo'ladi",
+      },
+
     ],
   },
 ];

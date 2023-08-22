@@ -16,7 +16,9 @@
   --icon-color: #5a5a5a;
   --icon-size: 24px;
   --text-size: 14px;
-  
+  --text-large:20px;
+  --text-weight:400;
+  --text-small:12px
 }
 
 .ant-segmented-item-label {
