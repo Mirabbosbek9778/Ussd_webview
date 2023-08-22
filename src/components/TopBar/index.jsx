@@ -1,11 +1,22 @@
-import React from 'react';
-import { Navbar } from './style';
+import React from "react";
+import { BoxItem, Navbar, TextContainer, TextItem } from "./style";
+import { Link } from "react-router-dom";
+import arrowLeft from "../../assets/icons/arrowL.svg";
 
-const TopBar = () => {
+const TopBar = (props) => {
   return (
-    <div>
-      <Navbar>dfsdfsd</Navbar>
-    </div>
+    <Navbar>
+      <BoxItem>
+        <div>
+          <Link to={"/"}>
+            <img src={arrowLeft} alt="Back" />
+          </Link>
+        </div>
+        <TextContainer>
+          <TextItem>{props.title}</TextItem>
+        </TextContainer>
+      </BoxItem>
+    </Navbar>
   );
 };
 
