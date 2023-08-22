@@ -12,6 +12,7 @@ import { ReactComponent as operatorMenuIcon } from '../../assets/icons/operatos.
 import { ReactComponent as active_main } from '../../assets/icons/active_main.svg';
 import { ReactComponent as active_services } from '../../assets/icons/active_services.svg';
 import { ReactComponent as active_setting } from '../../assets/icons/active_setting.svg';
+import { ReactComponent as arrowLeft } from '../../assets/icons/arrowL.svg';
 
 const MainTabIcon = styled(MainIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
@@ -116,6 +117,11 @@ const OperatorMenuIcon = styled(operatorMenuIcon)`
   }
 `;
 
+const ArrowIcon = styled(arrowLeft)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+`;
+
 export {
   MainTabIcon,
   Services,
@@ -130,4 +136,5 @@ export {
   ActiveMainTabIcon,
   ActiveServices,
   ActiveSettings,
+  ArrowIcon,
 };
