@@ -1,6 +1,5 @@
 import {
   internetMenuIcon,
-  operatorMenuIcon,
   restMenuIcon,
   serviceMenuIcon,
   tarifMenuIcon,
