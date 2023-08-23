@@ -86,9 +86,8 @@ export const sms = [
 export const internet = [
   {
     category_id: 2,
-    name: '30 kunlik paketlar',
+    name1: '30 kunlik paketlar',
     company_name: 'Beeline',
-    name: 'Internet',
     company_name: 'Beeline',
     pakets: [
       {
@@ -139,7 +138,7 @@ export const internet = [
   },
   {
     category_id: 3,
-    name: 'Kunlik paketlar',
+    name1: 'Kunlik paketlar',
     company_name: 'Beeline',
     pakets: [
       {

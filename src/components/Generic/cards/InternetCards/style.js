@@ -8,7 +8,7 @@ background-color: var(--card-color);
 border: 1px solid var(--border-color);
 `
 export const CardDiv = styled.div`
-margin: 0 16px;
+margin: 8px 16px;
 background-color: var(--card-color);
 border-radius: 12px;
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
