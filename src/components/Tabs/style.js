@@ -19,6 +19,9 @@ export const Tab = styled(Tabs)`
     padding-left: 16px; */
     /* background-color: transparent; */
   }
+  .ant-tabs-nav-wrap::before {
+    opacity: 0 !important;
+  }
 
   .ant-tabs-nav-list {
     gap: 24px;
