@@ -16,7 +16,7 @@ width: 206px;
 color: var(--gray-500, #333);
 font-family: 'Roboto', sans-serif;;
 font-size: 14px;
-font-style: normal;np
+font-style: normal;
 display:flex;
 font-weight: 800;
 line-height: normal;

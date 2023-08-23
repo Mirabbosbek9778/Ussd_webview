@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --bg-color: #f6f6f6;
   --ussd-color: #0073ff;
@@ -19,6 +18,12 @@
   --text-large:20px;
   --text-weight:400;
   --text-small:12px
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .ant-segmented-item-label {

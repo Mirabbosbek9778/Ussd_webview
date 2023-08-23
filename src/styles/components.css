@@ -1,11 +1,11 @@
 .category-card-layout {
-    @apply w-full flex flex-col items-center max-h-[70vh] overflow-y-scroll pb-8;
+  @apply w-full flex flex-col items-center overflow-y-scroll gap-4 px-4 pb-[90px];
 }
 
 .category-card-layout::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .category-card {
-    @apply w-11/12 flex items-center mt-[18px] cursor-pointer select-none py-4 px-[14px] h-[61px] bg-[var(--card-color)] rounded-xl justify-between shadow;
+  @apply w-full flex items-center  cursor-pointer select-none py-[18px] px-[14px] bg-[var(--card-color)] rounded-xl justify-between shadow;
 }
