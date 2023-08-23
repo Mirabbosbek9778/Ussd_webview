@@ -1,8 +1,10 @@
 import { Routes as BrowserRoutes, Route } from 'react-router-dom';
 import Home from "../pages/Home"
 import USSD from '../pages/USSD';
-import Tarif from '../pages/TARIF';
+import Tarif from '../pages/Tarif';
 import InternetPakets from "../pages/InternetPakets/index"
+import Details from '../pages/Tarif/Details';
+
 export const Routes = () => (
   <BrowserRoutes>
     <Route path='/' element={<Home />} />
@@ -15,6 +17,7 @@ export const Routes = () => (
     <Route path='/services' element={<><h1>services</h1></>} />
     <Route path='/sms' element={<><h1>sms</h1></>} />
     <Route path='/call-center' element={<><h1>call-center</h1></>} />
-    <Route path='/restart' element={<><h1>restart</h1></>} />
+    <Route path='/restart' element={<><h1>restart</h1></>} /> 
+    <Route path='/tarif/detailed/:id' element={<Details/>} />
   </BrowserRoutes>
 )

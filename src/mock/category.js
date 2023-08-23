@@ -8,7 +8,7 @@ import {
 
 import messageIcon from '../assets/icons/messageIcon.svg';
 import phoneIcons from '../assets/icons/phoneIcons.svg';
-import globusinternet from '../assets/icons/internetGlobus.svg';
+// import globusinternet from '../assets/icons/internetGlobus.svg';
 
 export const category = [
   {
@@ -289,7 +289,7 @@ export const tariff = [
         minutes: 'Cheksiz',
         internet: '6GB',
         description: "bu yerda description bo'ladi",
-        imginternet: globusinternet,
+        // imginternet: globusinternet,
         imginternet2: phoneIcons,
         imginternet3: messageIcon,
       },
@@ -305,7 +305,7 @@ export const tariff = [
         minutes: 'Cheksiz',
         internet: '6GB',
         description: "bu yerda description bo'ladi",
-        imginternet: globusinternet,
+        // imginternet: globusinternet,
         imginternet2: phoneIcons,
         imginternet3: messageIcon,
       },
@@ -321,7 +321,7 @@ export const tariff = [
         minutes: 'Cheksiz',
         internet: '6GB',
         description: "bu yerda description bo'ladi",
-        imginternet: globusinternet,
+        // imginternet: globusinternet,
         imginternet2: phoneIcons,
         imginternet3: messageIcon,
       },
