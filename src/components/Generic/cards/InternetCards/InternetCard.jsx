@@ -3,7 +3,7 @@ import { InternetDiv } from "./style";
 const InternetCard = ({ package_name, price, deadline }) => {
   return (
     <InternetDiv>
-      <p className="px-4 py-[8px] text-[var(--ussd-color)] text-xl font-[550] ">
+      <p className="px-4 py-[4px] text-[var(--ussd-color)] text-xl font-[550] ">
         {package_name}
       </p>
       <div className="px-4 flex justify-between w-[100%]">
