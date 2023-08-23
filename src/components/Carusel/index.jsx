@@ -23,11 +23,7 @@ export default function Carosel() {
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
-              <img
-                className='w-11/12 h-11/12 rounded-lg'
-                src={el.image}
-                alt='img'
-              />
+              <img className='w-[291px] rounded-lg' src={el.image} alt='img' />
             </SwiperSlide>
           ))}
         </Swiper>
