@@ -15,6 +15,7 @@ export const Routes = () => (
     <Route path='/services' element={<><h1>services</h1></>} />
     <Route path='/sms' element={<><h1>sms</h1></>} />
     <Route path='/call-center' element={<><h1>call-center</h1></>} />
+    <Route path='/restart' element={<><h1>restart</h1></>} />
 
   </BrowserRoutes>
 )

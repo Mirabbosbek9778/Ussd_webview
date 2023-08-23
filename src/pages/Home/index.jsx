@@ -13,7 +13,12 @@ const index = () => {
       <div className='h-[234px]'></div>
       <div className='category-card-layout'>
         {category?.map((el) => (
-          <CategoryCard key={el.id} icon={el.icon} title={el.name} />
+          <CategoryCard
+            key={el.id}
+            path={el.path}
+            icon={el.icon}
+            title={el.name}
+          />
         ))}
       </div>
       <Navbar />
