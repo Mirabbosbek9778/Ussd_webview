@@ -86,6 +86,8 @@ export const sms = [
 export const internet = [
   {
     category_id: 2,
+    name: "30 kunlik paketlar",
+    company_name: "Beeline",
     name: 'Internet',
     company_name: 'Beeline',
     pakets: [
@@ -93,6 +95,10 @@ export const internet = [
         id: 1,
         package_name: '1 GB',
         category_id: 2,
+        deadline: "30 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 9000,
         deadline: 'oylik',
         time: '',
         ussd_code: '*100#',
@@ -101,6 +107,11 @@ export const internet = [
       },
       {
         id: 2,
+        package_name: "1.5 GB",
+        category_id: 2,
+        deadline: "30 kun",
+        time: "",
+        ussd_code: "*100#",
         package_name: '10 GB',
         category_id: 2,
         deadline: 'haftalik',
@@ -111,6 +122,11 @@ export const internet = [
       },
       {
         id: 3,
+        package_name: "2 GB",
+        category_id: 2,
+        deadline: "30 kun",
+        time: "",
+        ussd_code: "*100#",
         package_name: '15 GB',
         category_id: 2,
         deadline: 'kunlik',
@@ -119,6 +135,47 @@ export const internet = [
         price: 15000,
         description: "bu yerda description bo'ladi",
       },
+
+    ],
+  },
+];
+export const internetDaily = [
+  {
+    category_id: 3,
+    name: "Kunlik paketlar",
+    company_name: "Beeline",
+    pakets: [
+      {
+        id: 1,
+        package_name: "1 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 9000,
+        description: "bu yerda description bo'ladi",
+      },
+      {
+        id: 2,
+        package_name: "1.5 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 15000,
+        description: "bu yerda description bo'ladi",
+      },
+      {
+        id: 3,
+        package_name: "2 GB",
+        category_id: 2,
+        deadline: "1 kun",
+        time: "",
+        ussd_code: "*100#",
+        price: 15000,
+        description: "bu yerda description bo'ladi",
+      },
+
     ],
   },
 ];
