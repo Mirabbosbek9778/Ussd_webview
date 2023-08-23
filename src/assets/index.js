@@ -1,7 +1,7 @@
-import beeline from './images/Beeline.png';
-import ucell from './images/Ucell.png';
-import uzmobile from './images/Uzmobile.png';
-import mobiuz from './images/mobiuz.png';
+import beeline from './images/Beeline2.png';
+import ucell from './images/Ucell2.png';
+import uzmobile from './images/uztelecom.png';
+import mobiuz from './images/mobiuz2.png';
 import topBar from './images/topBar.png';
 
 import ussdMenuIcon from './icons/ussd.svg';
