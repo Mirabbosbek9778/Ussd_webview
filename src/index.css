@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --bg-color: #f6f6f6;
   --ussd-color: #0073ff;
@@ -15,6 +14,14 @@
   --card-color: #ffffff;
   --icon-color: #5a5a5a;
   --icon-size: 24px;
+  --text-size: 14px;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .ant-segmented-item-label {
@@ -38,5 +45,3 @@
 .ant-segmented {
   background-color: var(--background-color);
 }
-
-
