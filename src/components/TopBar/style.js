@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   left: 0;
   right: 0;
   margin: 0 auto;
+  z-index: 10;
 `;
 
 export const TextItem = styled.p`

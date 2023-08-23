@@ -55,12 +55,12 @@ const ActiveSettings = styled(active_setting)`
 `;
 
 const CategoryCardArrow = styled(CategoryCardIcon)`
-  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  /* width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
     fill: ${({ color }) => color || 'var(--icon-size)'};
     stroke: ${({ color }) => color || 'var(--icon-color)'};
-  }
+  } */
 `;
 
 const UssdMenuIcon = styled(ussdMenuIcon)`
