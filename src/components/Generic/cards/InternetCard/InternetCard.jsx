@@ -1,4 +1,3 @@
-import React from 'react';
 import { InternetDiv } from './style';
 const InternetCard = ({ package_name, price, deadline }) => {
   return (

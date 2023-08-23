@@ -1,6 +1,5 @@
 import React from 'react';
 import TopBar from '../../components/TopBar';
-import InternetCards from '../../components/InternetPackages/InternetCards';
 import Packets from './Packets';
 import Rouming from './Rouming';
 import NonStop from './NonStop';

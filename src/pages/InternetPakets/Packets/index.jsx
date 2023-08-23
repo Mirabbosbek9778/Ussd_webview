@@ -1,4 +1,4 @@
-import InternetCards from '../../../components/InternetPackages/InternetCards';
+import InternetCards from '../../../components/InternetCards';
 import { internet } from '../../../mock/category';
 
 const Packets = () => {

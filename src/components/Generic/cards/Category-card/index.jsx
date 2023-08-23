@@ -8,7 +8,7 @@ export default function CategoryCard({ icon, title, path }) {
       <div className='category-card' onClick={() => navigate(path)}>
         <div className='flex items-center justify-between'>
           <img className='w-[24px] h-[24px]' src={icon} alt='icon' />
-          <p className='font-bold text-[var(--text-width)] ml-[8px] text-[var(--text-color)] '>
+          <p className='font-bold  ml-[8px] text-[var(--text-color)] '>
             {title}
           </p>
         </div>

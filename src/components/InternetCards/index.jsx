@@ -1,6 +1,5 @@
-import React from 'react';
-import InternetCard from '../Generic/cards/InternetCards/InternetCard';
-import { CardDiv, MainBtn } from '../Generic/cards/InternetCards/style';
+import InternetCard from '../Generic/cards/InternetCard/InternetCard';
+import { CardDiv, MainBtn } from '../Generic/cards/InternetCard/style';
 const InternetCards = ({ pakets, name1 }) => {
   return (
     <CardDiv>

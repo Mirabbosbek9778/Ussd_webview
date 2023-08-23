@@ -19,21 +19,21 @@ const Navbar = () => {
           onClick={() => setActive('main')}
         >
           {active == 'main' ? <ActiveMainTabIcon /> : <MainTabIcon />}
-          <Title color={active == 'main' ? true : ''}>Asosiy</Title>
+          <Title color={active == 'main' ? 'true' : ''}>Asosiy</Title>
         </div>
         <div
           className='flex justify-center items-center flex-col cursor-pointer'
           onClick={() => setActive('services')}
         >
           {active == 'services' ? <ActiveServices /> : <Services />}
-          <Title color={active == 'services' ? true : ''}>Xizmatlar</Title>
+          <Title color={active == 'services' ? 'true' : ''}>Xizmatlar</Title>
         </div>
         <div
           className='flex justify-center items-center flex-col cursor-pointer'
           onClick={() => setActive('settings')}
         >
           {active == 'settings' ? <ActiveSettings /> : <Settings />}
-          <Title color={active == 'settings' ? true : ''}>Sozlamalar</Title>
+          <Title color={active == 'settings' ? 'true' : ''}>Sozlamalar</Title>
         </div>
       </div>
     </div>
