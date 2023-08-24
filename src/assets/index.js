@@ -10,6 +10,8 @@ import internetMenuIcon from './icons/internet.svg';
 import serviceMenuIcon from './icons/service.svg';
 import restMenuIcon from './icons/rest.svg';
 import operatorMenuIcon from './icons/operatos.svg';
+import emailmenuIcon from "./icons/email.svg"
+import chatBot from "./icons/chatBot.svg"
 
 export {
   beeline,
@@ -23,4 +25,6 @@ export {
   restMenuIcon,
   operatorMenuIcon,
   topBar,
+  emailmenuIcon,
+  chatBot
 };
