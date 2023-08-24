@@ -17,7 +17,7 @@ const index = () => {
         </p>
         {CallCenterCodes.map((item, index) => (
           <OperatorSingleCard className="flex " key={index}>
-            <div className="w-[30px] h-[40px]  mt-2 mx-1  flex items-center justify-center rounded-lg bg-[var(--border-color)] ">
+            <div className="w-[30px] h-[40px]  mt-2 mr-1  flex items-center justify-center rounded-lg bg-[var(--border-color)] ">
               {" "}
               <img
                 src={item.icon}
