@@ -120,6 +120,7 @@ const OperatorMenuIcon = styled(operatorMenuIcon)`
 const ArrowIcon = styled(arrowLeft)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
 `;
 
 export {

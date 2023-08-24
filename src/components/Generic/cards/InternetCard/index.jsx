@@ -1,7 +1,10 @@
 import { InternetDiv } from './style';
-const InternetCard = ({ package_name, price, deadline }) => {
+const InternetCard = ({
+  item: { package_name, price, deadline },
+  fullCard,
+}) => {
   return (
-    <InternetDiv>
+    <InternetDiv $fullCard={fullCard}>
       <div className=' text-[var(--ussd-color)] text-[20px] font-[550] '>
         {package_name}
       </div>
