@@ -5,9 +5,14 @@ export const InternetDiv = styled.div`
   align-items: start;
   flex-direction: column;
   background-color: var(--card-color);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: ${({ $fullCard }) =>
+    !$fullCard && '1px solid var(--border-color)'};
+  border-radius: ${({ $fullCard }) => $fullCard && '12px'};
+  border: ${({ $fullCard }) => $fullCard && '1px solid var(--border-color)'};
   gap: 8px;
-  padding-bottom: 8px;
+  padding: ${({ $fullCard }) => ($fullCard ? '24px 15px' : '0 0 8px 0')};
+  box-shadow: ${({ $fullCard }) =>
+    $fullCard && '0px 0px 20px 0px rgba(0, 0, 0, 0.07)'};
 `;
 export const CardDiv = styled.div`
   background-color: var(--card-color);

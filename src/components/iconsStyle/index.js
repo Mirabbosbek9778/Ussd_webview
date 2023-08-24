@@ -13,6 +13,7 @@ import { ReactComponent as active_main } from '../../assets/icons/active_main.sv
 import { ReactComponent as active_services } from '../../assets/icons/active_services.svg';
 import { ReactComponent as active_setting } from '../../assets/icons/active_setting.svg';
 import { ReactComponent as arrowLeft } from '../../assets/icons/arrowL.svg';
+import { ReactComponent as copyIcon } from '../../assets/icons/copyIcon.svg';
 
 const MainTabIcon = styled(MainIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
@@ -120,6 +121,16 @@ const OperatorMenuIcon = styled(operatorMenuIcon)`
 const ArrowIcon = styled(arrowLeft)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
+`;
+
+const CopyIcon = styled(copyIcon)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    fill: ${({ color }) => color || 'var(--icon-size)'};
+    stroke: ${({ color }) => color || 'var(--icon-color)'};
+  }
 `;
 
 export {
@@ -137,4 +148,5 @@ export {
   ActiveServices,
   ActiveSettings,
   ArrowIcon,
+  CopyIcon,
 };
