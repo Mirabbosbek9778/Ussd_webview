@@ -6,7 +6,9 @@ import {
   ussdMenuIcon,
   operatorMenuIcon,
   emailmenuIcon,
-  chatBot
+  chatBot,
+  arrowR
+
 } from '../assets';
 
 import messageIcon from '../assets/icons/messageIcon.svg';
@@ -369,4 +371,41 @@ export const CallCenterCodes = [
     ussdCode: "https://t.me/utc_uzbot",
     description: "Savol yo'llash uchun telegram-bot",
   },
+]
+export const Services = [{
+  id: 1,
+  title: "Qo'llab yubor",
+  icon: arrowR
+},
+{
+  id: 2,
+  title: "Chaqiruvni kutish",
+  icon: arrowR
+},
+{
+  id: 3,
+  title: "Konferens aloqa",
+  icon: arrowR
+},
+{
+  id: 4,
+  title: "Menga qo’ng’iroq qiling",
+  icon: arrowR
+}, {
+  id: 5,
+  title: "Qabul qilinmagan qo’ng’iroq",
+  icon: arrowR
+}, {
+  id: 6,
+  title: "Yashirin qo’ng’iroq",
+  icon: arrowR
+}, {
+  id: 7,
+  title: "Kontent xizmatlarni o’chirish",
+  icon: arrowR
+}, {
+  id: 8,
+  title: "Foydali almashtiruv",
+  icon: arrowR
+},
 ]

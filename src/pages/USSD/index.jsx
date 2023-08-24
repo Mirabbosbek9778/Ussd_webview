@@ -5,8 +5,8 @@ import { UssdCodes } from '../../mock/category';
 import USSDCard from '../../components/UssdCard/USSDCard';
 const USSD = () => {
   const getUSDDAndroid = (e) => {
-    window?.Android?.CallUSSD(e);
-    window?.webkit?.messageHandlers?.CallUSSD.postMessage(e);
+    window?.Android?.callUssd(e);
+    window?.webkit?.messageHandlers?.callUssd.postMessage(e);
   };
   return (
     <div className='bg-[var(--bg-color)]'>

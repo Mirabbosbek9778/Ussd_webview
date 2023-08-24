@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import TopBar from "../../components/TopBar";
 import { CallCenterCodes } from "../../mock/category";
 import { OperatorCards, OperatorSingleCard } from "./style";
 const index = () => {
+  const [state, setstate] = useState(false);
   const getUSDDAndroid = (e) => {
-    window?.Android?.CallUSSD(e);
-    window?.webkit?.messageHandlers?.CallUSSD.postMessage(e);
+    window?.Android?.callUssd(e);
+    window?.webkit?.messageHandlers?.callUssd.postMessage(e);
     console.log(e);
   };
+
   return (
     <div className="h-[100vh] bg-[var(--background-color)]">
       <TopBar title={"Operator bilan aloqa"} />
@@ -21,17 +23,24 @@ const index = () => {
               {" "}
               <img
                 src={item.icon}
-                alt=""
+                alt="img"
                 className="w-[25px] h-[25px] text-[var(--icon-color)]"
               />
             </div>
             <div className="flex flex-col px-[5px] ">
-              <p
-                className="text-[var(--ussd-color)] font-[600] pt-[5px]"
-                onClick={()=>getUSDDAndroid(item.ussdCode)}
-              >
-                {item.ussdCode}
-              </p>
+              {state ? (
+                <a
+                  className="text-[var(--ussd-color)] font-[600] pt-[5px]"
+                  href={item.ussdCode}
+                >
+                  {item.ussdCode}
+                </a>
+              ) : (
+                <p className="text-[var(--ussd-color)] font-[600] pt-[5px]">
+                  {item.ussdCode}
+                </p>
+              )}
+
               <p className="text-[10px] py-[4px] text-[var(--item-color)] ">
                 {item.description}
               </p>

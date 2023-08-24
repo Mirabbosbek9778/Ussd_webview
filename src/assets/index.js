@@ -12,6 +12,7 @@ import restMenuIcon from './icons/rest.svg';
 import operatorMenuIcon from './icons/operatos.svg';
 import emailmenuIcon from "./icons/email.svg"
 import chatBot from "./icons/chatBot.svg"
+import arrowR from "./icons/arrowR.svg"
 
 export {
   beeline,
@@ -26,5 +27,6 @@ export {
   operatorMenuIcon,
   topBar,
   emailmenuIcon,
-  chatBot
+  chatBot,
+  arrowR
 };
