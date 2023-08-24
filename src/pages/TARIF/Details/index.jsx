@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { tariff } from "../../../mock/category";
 import TarifCard from "../../../components/Generic/cards/TarifCard";
 import Copy from "../../../components/Copy";
+import SingleCard from "../../../components/singleCard";
 const Details = ({}) => {
   const [filter, setFilter] = useState([]);
   const param = useParams();
@@ -14,6 +15,7 @@ const Details = ({}) => {
     );
     setFilter(res);
   }, [param.id]);
+  // console.log(param);
 
   //   console.log(filter[0]?.minutes);
 
@@ -23,7 +25,8 @@ const Details = ({}) => {
       <div className="pt-[100px] flex flex-col">
         <TarifCard {...filter[0]} />
       </div>
-        <Copy />
+      <Copy />
+      <SingleCard {...filter[0]} />
     </div>
   );
 };

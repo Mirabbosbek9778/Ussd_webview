@@ -1,4 +1,4 @@
-import { styled } from 'styled-components';
+import { styled } from "styled-components";
 
 export const Wrapper = styled.div`
   max-width: 700px;
@@ -14,10 +14,15 @@ export const Wrapper = styled.div`
   left: 0;
   right: 0;
   margin: 0 auto;
+  z-index: 10;
 `;
 
 export const TextItem = styled.p`
   font-family: Okta-Neue, sans-serif;
   font-size: 16px;
   color: var(--card-color);
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
 `;

@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 261px;
+  /* height: 261px; */
   display: flex;
   flex-direction: column;
   align-items: start;
   border: 1px;
   gap: 10px;
   margin: 0 auto;
-  /* width: 90%; */
-  /* margin-top: 100px; */
   border-radius: 12px;
   background-color: white;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+  padding: 18px 14px;
+  border: 1px solid var(--border-color);
+  background: var(--background-color);
 `;
 
 export const Titletext = styled.p`
@@ -30,7 +31,7 @@ Titletext.Title = styled.div`
   margin: 14px 15px 14px 15px;
   font-size: 15px;
   font-weight: 400;
-  font-family: Okta Nueu,sans-serif;
+  font-family: Okta Nueu, sans-serif;
   border-radius: 12px;
 `;
 export const FooterText = styled.p`
@@ -50,9 +51,8 @@ export const Box = styled.p`
   font-weight: 400;
   line-height: normal;
 `;
-export const Icons=styled.div`
-padding-left: 31px;
-
-`
+export const Icons = styled.div`
+  padding-left: 31px;
+`;
 
 export default Container;
