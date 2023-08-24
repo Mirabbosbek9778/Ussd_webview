@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { tariff } from "../../../mock/category";
 import TarifCard from "../../../components/Generic/cards/TarifCard";
 import Copy from "../../../components/Copy";
-import SingleCard from "../../../components/singleCard";
+import SingleCard from "../../../components/SingleCard";
 const Details = ({}) => {
   const [filter, setFilter] = useState([]);
   const param = useParams();

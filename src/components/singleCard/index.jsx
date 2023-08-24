@@ -1,10 +1,10 @@
-import React from "react";
-import { BtnActive, Description, TitleText } from "./style";
+import React from 'react';
+import { BtnActive, Description, TitleText } from './style';
 
 const SingleCard = ({ description }) => {
   return (
     <div>
-      <TitleText className="">Tavsif</TitleText>
+      <TitleText className=''>Tavsif</TitleText>
       <Description>
         <p>{description}</p>
       </Description>
