@@ -61,6 +61,6 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path='/tarif/detailed:id' element={<Details />} />
+    <Route path='/tarif/detailed/:id' element={<Details />} />
   </BrowserRoutes>
 );

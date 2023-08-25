@@ -15,7 +15,7 @@ const Details = () => {
     );
     setFilter(res);
   }, [param.id]);
-
+  console.log('hello');
   return (
     <>
       <div className='h-[89px]'></div>
