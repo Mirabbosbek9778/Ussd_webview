@@ -7,6 +7,7 @@
   --bg-color: #f6f6f6;
   --ussd-color: #0073ff;
   --text-color: #333333;
+  --text-value-color: #000000;
   --background-color: #fff;
   --border-color: #f6f6f6;
   --item-color: #5a5a5a;
@@ -15,9 +16,9 @@
   --icon-color: #5a5a5a;
   --icon-size: 24px;
   --text-size: 14px;
-  --text-large:20px;
-  --text-weight:400;
-  --text-small:12px
+  --text-large: 20px;
+  --text-weight: 400;
+  --text-small: 12px;
 }
 
 * {
@@ -46,4 +47,8 @@
 
 .ant-segmented {
   background-color: var(--background-color);
+}
+
+.ant-tabs-nav-more {
+  display: none;
 }

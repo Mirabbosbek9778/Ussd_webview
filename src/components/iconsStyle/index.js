@@ -14,6 +14,33 @@ import { ReactComponent as active_services } from '../../assets/icons/active_ser
 import { ReactComponent as active_setting } from '../../assets/icons/active_setting.svg';
 import { ReactComponent as arrowLeft } from '../../assets/icons/arrowL.svg';
 import { ReactComponent as copyIcon } from '../../assets/icons/copyIcon.svg';
+import { ReactComponent as messageIcon } from '../../assets/icons/sms.svg';
+import { ReactComponent as phoneIcons } from '../../assets/icons/phone.svg';
+import { ReactComponent as wallet } from '../../assets/icons/wallet.svg';
+
+const WalletIcon = styled(wallet)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
+
+const MessageIcon = styled(messageIcon)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
+
+const PhoneIcon = styled(phoneIcons)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
 
 const MainTabIcon = styled(MainIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
@@ -82,7 +109,7 @@ const TarifMenuIcon = styled(tarifMenuIcon)`
   }
 `;
 
-const TnternetMenuIcon = styled(internetMenuIcon)`
+const InternetMenuIcon = styled(internetMenuIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
@@ -127,6 +154,7 @@ const ArrowIcon = styled(arrowLeft)`
 const CopyIcon = styled(copyIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
   path {
     fill: ${({ color }) => color || 'var(--icon-size)'};
     stroke: ${({ color }) => color || 'var(--icon-color)'};
@@ -140,7 +168,7 @@ export {
   CategoryCardArrow,
   UssdMenuIcon,
   TarifMenuIcon,
-  TnternetMenuIcon,
+  InternetMenuIcon,
   ServiceMenuIcon,
   RestMenuIcon,
   OperatorMenuIcon,
@@ -149,4 +177,7 @@ export {
   ActiveSettings,
   ArrowIcon,
   CopyIcon,
+  MessageIcon,
+  PhoneIcon,
+  WalletIcon,
 };

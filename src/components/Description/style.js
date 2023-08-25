@@ -7,7 +7,6 @@ export const TitleText = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 16px;
 `;
 
 export const Description = styled.div`
@@ -19,9 +18,7 @@ export const Description = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 10px;
-  margin: 16px;
-  padding: 16px 16px 16px 16px;
+  padding: 16px;
 
 `;
 
@@ -29,7 +26,7 @@ export const BtnActive = styled.div`
   background-color: var(--ussd-color);
   display: flex;
   border: 1px solid red gap;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   margin: 16px 16px 16px 16px;
   
   border-radius: 12px;

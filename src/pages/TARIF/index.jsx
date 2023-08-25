@@ -1,19 +1,32 @@
-import TopBar from "../../components/TopBar";
-import { tariff } from "../../mock/category";
-import TarifCard from "../../components/Generic/cards/TarifCard";
-import { Link } from "react-router-dom";
-
-const Tarif = () => {
+import React from 'react';
+import TopBar from '../../components/TopBar';
+import Tabs from '../../components/Tabs';
+import Tariflar from './Tariflar';
+const index = () => {
+  const tabItems = [
+    {
+      key: '1',
+      children: <Tariflar />,
+      label: '“Barakali” tariflari',
+    },
+    {
+      key: '2',
+      children: <h1>Coming soon...</h1>,
+      label: '“Units” tariflari',
+    },
+    {
+      key: '3',
+      children: <h1>Coming soon...</h1>,
+      label: '“Milliy” tariflari',
+    },
+  ];
   return (
-    <div className="flex flex-col pt-[100px] gap-4 pb-[31px]">
-      <TopBar title="Tarif rejalar" />
-      {tariff[0].tarifs.map((item, index) => (
-        <Link to={`/tarif/detailed/${item.id}`} className="flex flex-col">
-          <TarifCard key={index} {...item} />
-        </Link>
-      ))}
+    <div className='bg-[var(--bg-color)] h-[100%] flex flex-col  '>
+      <div className='h-[89px]'></div>
+      <TopBar title={'Tarif rejalar'} />
+      <Tabs items={tabItems} />
     </div>
   );
 };
 
-export default Tarif;
+export default index;
