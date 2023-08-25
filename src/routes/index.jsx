@@ -3,7 +3,7 @@ import Home from '../pages/Home';
 import USSD from '../pages/USSD';
 import Tarif from '../pages/TarifPage';
 import InternetPakets from '../pages/InternetPakets';
-import Details from '../pages/TarifPage/Details/index';
+import Details from '../pages/TarifPage/Details';
 import InternetDetails from '../pages/InternetPakets/Packets/FullPackets';
 export const Routes = () => (
   <BrowserRoutes>
@@ -61,6 +61,6 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path='/tarif/detailed' element={<Details />} />
+    <Route path='/tarif/detailed:id' element={<Details />} />
   </BrowserRoutes>
 );
