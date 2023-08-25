@@ -6,6 +6,8 @@ import InternetPakets from "../pages/InternetPakets/index";
 import CallCenter from "../pages/CallCenter";
 import SingleCard from "../components/SingleCardOff";
 import Services from "../pages/Services";
+// import React from "react";
+import SingleServiceP from "../pages/Services/SingleServiceP";
 export const Routes = () => (
   <BrowserRoutes>
     <Route path="/" element={<Home />} />
@@ -77,7 +79,14 @@ export const Routes = () => (
       }
     />
     <Route path="/internet" element={<InternetPakets />} />
-    <Route path="/internet/full-packets" element={<InternetDetails />} />
+    <Route
+      path="/internet/full-packets"
+      element={
+        <>
+          <h1>inter</h1>
+        </>
+      }
+    />
     <Route
       path="/services"
       element={
@@ -110,6 +119,27 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path="/tarif/detailed/:id" element={<Details />} />
+    <Route
+      path="/tarif/detailed/:id"
+      element={
+        <>
+          <h1>ddd</h1>
+        </>
+      }
+    />
+      <Route
+      path="/tarif/detailed/:id"
+      element={
+        <>
+          <h1>ddd</h1>
+        </>
+      }
+    />
+       <Route
+      path="/services/service/:id"
+      element={
+       <SingleServiceP/>
+      }
+    />
   </BrowserRoutes>
 );
