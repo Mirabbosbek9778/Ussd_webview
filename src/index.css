@@ -52,3 +52,7 @@
 .ant-tabs-nav-more {
   display: none;
 }
+
+.swiper-slide {
+  margin: 0 !important;
+}
