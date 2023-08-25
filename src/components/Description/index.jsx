@@ -5,9 +5,7 @@ const SingleCard = ({ description }) => {
   return (
     <div>
       <TitleText className=''>Tavsif</TitleText>
-      <Description>
-        <p>{description}</p>
-      </Description>
+      <Description>{description}</Description>
       <BtnActive>
         <button>Paketni faollashtirish</button>
       </BtnActive>

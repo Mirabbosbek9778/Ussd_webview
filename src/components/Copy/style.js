@@ -1,19 +1,18 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: white;
   display: flex;
-  border: 1px solid red gap;
-  margin-top: 16px;
-  margin: 16px 16px 16px 16px;
+  border: 1px solid --border-color;
   border-radius: 12px;
-  height: 95px;
   flex-direction: column;
-  gap: 13px;
+  padding: 18px 14px;
+  gap: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 `;
 
 export const TarifCode = styled.div`
-  color: var(--ussd-color, #0073ff);
+  color: var(--ussd-color);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -22,18 +21,16 @@ export const TarifCode = styled.div`
 `;
 
 export const TarifWrite = styled.div`
-  color: var(--text-color, #333);
+  color: #333;
   font-family: Okta Neue, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 14px;
-  padding-top: 18px;
 `;
 
 export const Box = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0px 14px 0px 14px;
+  align-items: center;
 `;

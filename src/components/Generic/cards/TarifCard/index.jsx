@@ -1,46 +1,67 @@
-import Container, { Box, FooterText, Icons, Titletext } from "./style";
-
+import { Container, CardWrap, Text, Titletext } from './style';
+import {
+  MessageIcon,
+  PhoneIcon,
+  InternetMenuIcon,
+  WalletIcon,
+} from '../../../../components/iconsStyle';
 const TarifCard = ({
   package_name,
   internet,
-  imginternet2,
-  imginternet3,
   price,
   minutes,
   sms,
+  onclick,
+  detail,
 }) => {
   return (
-    <Container>
-      <div>
-        <Titletext>{package_name}</Titletext>
-      </div>
-      <div className="flex gap-[175px] pl-2">
-        <div className="flex pl-[15px] justify-center items-center gap-[10px]">
-          <div>
-            <img src={imginternet2} alt="" />
+    <Container onClick={onclick}>
+      <Titletext>{package_name}</Titletext>
+      <CardWrap>
+        <div className='flex justify-between items-center '>
+          <div className='flex items-center '>
+            <div className='p-2  rounded-lg bg-[var(--border-color)] '>
+              <InternetMenuIcon />
+            </div>
+            <p className='text-[#5A5A5A] ml-[10px] text-base'>Internet</p>
           </div>
-          <p className="text-[#5A5A5A]">Internet</p>
+          <Text>{internet}</Text>
         </div>
-        <p className="text-{16px} font-normal text-#000000">{internet}</p>
-      </div>
-      <div className="flex gap-[140px] pl-2">
-        <div className="flex pl-[15px] justify-center items-center gap-[10px]">
-          <img src={imginternet2} alt="" />
-          <p className="text-[#5A5A5A]">Daqiqalar</p>
+        <div className='flex justify-between items-center'>
+          <div className='flex items-center '>
+            <div className='p-2  rounded-lg bg-[var(--border-color)] '>
+              <PhoneIcon />
+            </div>
+            <p className='text-[#5A5A5A] ml-[10px] text-base'>Daqiqalar</p>
+          </div>
+          <Text>{minutes}</Text>
         </div>
-        <p className="text-{16px} font-normal text-[#000000]">{minutes}</p>
-      </div>
-      <div className="flex gap-[220px] pl-2">
-        <div className="flex pl-[15px] justify-center items-center gap-[10px]">
-          <img src={imginternet3} alt="" />
-          <p className="text-[#5A5A5A]">SMS</p>
+        <div className='flex justify-between items-center '>
+          <div className='flex items-center '>
+            <div className='p-2  rounded-lg bg-[var(--border-color)] '>
+              <MessageIcon />
+            </div>
+            <p className='text-[#5A5A5A] ml-[10px] text-base'>Internet</p>
+          </div>
+          <Text>{sms}</Text>
         </div>
-        <p className="text-{16px} font-normal text-[#000000]">{sms}</p>
-      </div>
-      <Titletext.Title className="flex gap-[110px] pl-2 text-[#333333] w-[313px] h-0 border ">
-        <p className="text-[#858585]">Abonent to’lovi</p>
-        <FooterText>{price} so’m/oy</FooterText>
-      </Titletext.Title>
+      </CardWrap>
+      {detail ? (
+        <Titletext.Title>
+          <div className='flex items-center '>
+            <div className='p-2  rounded-lg bg-[var(--border-color)] '>
+              <WalletIcon />
+            </div>
+            <p className='text-[#5A5A5A] ml-[10px] text-base'>Oylik to'lov</p>
+          </div>
+          <Text $detail>{price} so'm/oy</Text>
+        </Titletext.Title>
+      ) : (
+        <Titletext.Title>
+          <p className='text-[#858585]'>Abonent to'lovi</p>
+          <Text>{price} so'm/oy</Text>
+        </Titletext.Title>
+      )}
     </Container>
   );
 };

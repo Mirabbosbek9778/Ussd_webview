@@ -6,7 +6,6 @@ import InternetPakets from "../pages/InternetPakets/index";
 import CallCenter from "../pages/CallCenter";
 import SingleCard from "../components/SingleCardOff";
 import Services from "../pages/Services";
-// import React from "react";
 import SingleServiceP from "../pages/Services/SingleServiceP";
 export const Routes = () => (
   <BrowserRoutes>
@@ -19,14 +18,7 @@ export const Routes = () => (
         </>
       }
     />
-    <Route
-      path="/settings"
-      element={
-        <>
-          <h1>settings</h1>
-        </>
-      }
-    />
+
     <Route path="/ussd" element={<USSD />} />
     <Route path="/tarif" element={<Tarif />} />
     <Route
@@ -68,8 +60,6 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path="/ussd" element={<USSD />} />
-    <Route path="/tarif" element={<Tarif />} />
     <Route
       path="/plans"
       element={
@@ -87,6 +77,7 @@ export const Routes = () => (
         </>
       }
     />
+    <Route path="/internet/full-packets" element={<InternetDetails />} />
     <Route
       path="/services"
       element={
@@ -119,6 +110,7 @@ export const Routes = () => (
         </>
       }
     />
+
     <Route
       path="/tarif/detailed/:id"
       element={
@@ -127,19 +119,7 @@ export const Routes = () => (
         </>
       }
     />
-      <Route
-      path="/tarif/detailed/:id"
-      element={
-        <>
-          <h1>ddd</h1>
-        </>
-      }
-    />
-       <Route
-      path="/services/service/:id"
-      element={
-       <SingleServiceP/>
-      }
-    />
+    <Route path="/services/service/:id" element={<SingleServiceP />} />
+    <Route path="/tarif/detailed/:id" element={<Details />} />
   </BrowserRoutes>
 );
