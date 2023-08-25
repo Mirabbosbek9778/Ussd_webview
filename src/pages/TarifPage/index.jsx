@@ -1,7 +1,7 @@
 import TopBar from '../../components/TopBar';
 import Tabs from '../../components/Tabs';
 import Tariflar from './Tariflar';
-const index = () => {
+const Tarif = () => {
   const tabItems = [
     {
       key: '1',
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Tarif;
