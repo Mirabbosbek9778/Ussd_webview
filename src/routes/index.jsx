@@ -2,7 +2,7 @@ import { Routes as BrowserRoutes, Route } from 'react-router-dom';
 import Home from "../pages/Home"
 import USSD from '../pages/USSD';
 import Tarif from '../pages/Tarif';
-import InternetPakets from "../pages/InternetPakets/index"
+import InternetPakets from "../pages/InternetPakets/index";
 import Details from '../pages/Tarif/Details';
 import InternetDetails from '../pages/InternetPakets/Packets/FullPackets';
 export const Routes = () => (
