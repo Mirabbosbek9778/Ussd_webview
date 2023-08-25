@@ -1,4 +1,3 @@
-import React from 'react';
 import TopBar from '../../components/TopBar';
 import Tabs from '../../components/Tabs';
 import Tariflar from './Tariflar';
