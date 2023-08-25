@@ -2,7 +2,7 @@ import { tariff } from '../../../mock/category';
 import TarifCard from '../../../components/Generic/cards/TarifCard';
 import { useNavigate } from 'react-router-dom';
 
-const Tarif = () => {
+const Tarifs = () => {
   const navigate = useNavigate();
   return (
     <div className='flex flex-col gap-4 my-5 mr-4'>
@@ -19,4 +19,4 @@ const Tarif = () => {
   );
 };
 
-export default Tarif;
+export default Tarifs;
