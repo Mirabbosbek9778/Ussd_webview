@@ -1,9 +1,9 @@
 import { Routes as BrowserRoutes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import USSD from '../pages/USSD';
-import Tarif from '../pages/Tarif';
+import Tarif from '../pages/TarifPage';
 import InternetPakets from '../pages/InternetPakets';
-import Details from '../pages/Tarif/Details/index';
+import Details from '../pages/TarifPage/Details/index';
 import InternetDetails from '../pages/InternetPakets/Packets/FullPackets';
 export const Routes = () => (
   <BrowserRoutes>
