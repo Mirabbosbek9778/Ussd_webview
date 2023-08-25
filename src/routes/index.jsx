@@ -1,7 +1,7 @@
 import { Routes as BrowserRoutes, Route } from 'react-router-dom';
 import Home from "../pages/Home"
 import USSD from '../pages/USSD';
-import Tarif from '../pages/Tarif/index.jsx';
+import TarifPage from '../pages/Tarif/index.jsx';
 import InternetPakets from "../pages/InternetPakets/index";
 import Details from '../pages/Tarif/Details';
 import InternetDetails from '../pages/InternetPakets/Packets/FullPackets';
@@ -11,7 +11,7 @@ export const Routes = () => (
     <Route path='/discount' element={<h1>acsiyalar</h1>} />
     <Route path='/settings' element={<><h1>settings</h1></>} />
     <Route path='/ussd' element={<USSD />} />
-    <Route path='/tarif' element={<Tarif />} />
+    <Route path='/tarif' element={<TarifPage />} />
     <Route path='/plans' element={<><h1>plans</h1></>} />
     <Route path='/internet' element={<InternetPakets/>} />
     <Route path='/internet/full-packets' element={< InternetDetails/>} />
