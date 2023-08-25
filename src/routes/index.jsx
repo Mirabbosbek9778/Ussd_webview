@@ -1,7 +1,7 @@
 import { Routes as BrowserRoutes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import USSD from "../pages/USSD";
-import Tarif from "../pages/TARIF";
+import Tarif from "../pages/TarifPage"
 import InternetPakets from "../pages/InternetPakets/index";
 import CallCenter from "../pages/CallCenter";
 import SingleCard from "../components/SingleCardOff";
@@ -77,7 +77,7 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path="/internet/full-packets" element={<InternetDetails />} />
+    {/* <Route path="/internet/full-packets" element={<InternetDetails />} /> */}
     <Route
       path="/services"
       element={
@@ -120,6 +120,6 @@ export const Routes = () => (
       }
     />
     <Route path="/services/service/:id" element={<SingleServiceP />} />
-    <Route path="/tarif/detailed/:id" element={<Details />} />
+    {/* <Route path="/tarif/detailed/:id" element={<Details />} /> */}
   </BrowserRoutes>
 );
