@@ -1,6 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
-import { Routes } from "./routes";
-import Container from "./components/Generic/container/Continer";
+import { BrowserRouter } from 'react-router-dom';
+import { Routes } from './routes';
+import Container from './components/Generic/container/Continer';
 const App = () => {
   return (
     <BrowserRouter>

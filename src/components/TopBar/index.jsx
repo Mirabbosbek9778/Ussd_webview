@@ -1,11 +1,18 @@
-import React from 'react';
-import { Navbar } from './style';
+import { Wrapper, TextItem } from './style';
+import { useNavigate } from 'react-router-dom';
+import { ArrowIcon } from '../iconsStyle';
 
-const TopBar = () => {
+const TopBar = (props) => {
+  const navigate = useNavigate();
+  const goBack = () => {
+    navigate(-1);
+  };
   return (
-    <div>
-      <Navbar>dfsdfsd</Navbar>
-    </div>
+    <Wrapper>
+      <ArrowIcon onClick={goBack} />
+      <TextItem>{props.title}</TextItem>
+      <div className='w-[24px] h-[24px]'></div>
+    </Wrapper>
   );
 };
 
