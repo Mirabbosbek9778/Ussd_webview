@@ -7,6 +7,7 @@
   --bg-color: #f6f6f6;
   --ussd-color: #0073ff;
   --text-color: #333333;
+  --text-value-color: #000000;
   --background-color: #fff;
   --border-color: #f6f6f6;
   --item-color: #5a5a5a;
@@ -24,8 +25,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
-
 .ant-segmented-item-label {
   padding: 0 !important;
 }
@@ -48,4 +49,14 @@
   background-color: var(--background-color);
 }
 
+<<<<<<< HEAD
 
+=======
+.ant-tabs-nav-more {
+  display: none;
+}
+
+.swiper-slide {
+  margin: 0 !important;
+}
+>>>>>>> 42e6f2e06d51fa73a2f5f8e79c0acd4ec093b56a

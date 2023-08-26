@@ -16,10 +16,10 @@ export default function Carosel() {
           // spaceBetween={20}
           centeredSlides={true}
           slidesPerView={1}
-          spaceBetween={30}
+          // spaceBetween={30}
           pagination={{ clickable: true }}
           modules={[Navigation]}
-          className='w-full h-full'
+          className='w-full'
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
