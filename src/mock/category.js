@@ -4,6 +4,10 @@ import {
   serviceMenuIcon,
   tarifMenuIcon,
   ussdMenuIcon,
+  operatorMenuIcon,
+  emailmenuIcon,
+  chatBot,
+  arrowR
 } from '../assets';
 
 // import messageIcon from "../assets/icons/messageIcon.svg";
@@ -40,6 +44,12 @@ export const category = [
     name: 'Restart xizmati',
     icon: restMenuIcon,
     path: '/restart',
+  },
+  {
+    id: 6,
+    name: 'Operator bilan Aloqa',
+    icon: operatorMenuIcon,
+    path: '/call-center',
   },
 ];
 
@@ -410,3 +420,126 @@ export const tariff = [
     ],
   },
 ];
+export const CallCenterCodes = [
+  {
+    id: 1,
+    icon: operatorMenuIcon,
+    ussdCode: "1099",
+    description: "O'zbekiston ichidagi UZMOBILE abonentlari uchun",
+  },
+  {
+    id: 2,
+    icon: operatorMenuIcon,
+    ussdCode: "1155",
+    description: "UZMOBILE korparativ abonentlari uchun",
+  },
+  {
+    id: 3,
+    icon: operatorMenuIcon,
+    ussdCode: "+998 (95) 504 09 09",
+    description: "Qolgan abonentlar uchun",
+  },
+  {
+    id: 4,
+    icon: internetMenuIcon,
+    ussdCode: "https://uztelecom.uz/index.php/ru",
+    description: "UZTELECOM web sahifasi",
+  },
+  {
+    id: 5,
+    icon: emailmenuIcon,
+    ussdCode: "info@uztelecom.uz",
+    description: "UZTELECOM elektron pochtasi",
+  },
+  {
+    id: 6,
+    icon: chatBot,
+    ussdCode: "https://t.me/utc_uzbot",
+    description: "Savol yo'llash uchun telegram-bot",
+  },
+]
+export const Services = [{
+  id: 1,
+  title: "Qo'llab yubor",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+},
+{
+  id: 2,
+  title: "Chaqiruvni kutish",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+},
+{
+  id: 3,
+  title: "Konferens aloqa",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+},
+{
+  id: 4,
+  title: "Menga qo’ng’iroq qiling",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+}, {
+  id: 5,
+  title: "Qabul qilinmagan qo’ng’iroq",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+}, {
+  id: 6,
+  title: "Yashirin qo’ng’iroq",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+}, {
+  id: 7,
+  title: "Kontent xizmatlarni o’chirish",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+}, {
+  id: 8,
+  title: "Foydali almashtiruv",
+  icon: arrowR,
+  description: "O‘tkazib yuborilgan qo‘ng‘iroqlar haqida doimo xabardor bo‘ling.",
+  activate: " *321*1#",
+  unactivate: ' *321*0#',
+  text: `“Sof” va “Doimiy” tizimlari tarif rejalari abonentlari uchun “Sizga qo‘ng‘iroq qilishdi” xizmati 01.07.2023-y.dan 31.12.2023-y.gacha bo‘lgan davrda bepul asosda taqdim etiladi.“Sizga qo‘ng‘iroq qilishdi” xizmatining 30 kunlik opsiyasi “Sof” va “Doimiy” tizimlari tarif rejalarida amal qilmaydi.
+  30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati “Ovozli pochta”, “Dinamik ovozli pochta”, «Barcha uchun ovozli pochta» va kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati bilan bir vaqtda ishlamaydi.Shunday qilib, 30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmatini faollashtirish uchun oldin yuqoridigilarni o‘chirishingiz kerak.30 kunlik “Sizga qo‘ng‘iroq qilishdi” xizmati avtomatik uzaytirish funksiyasiga ega emas, shuning uchun, foydalanish muddati tugaganidan so‘ng xizmat o‘chiriladi.Shuni ta'kidlash kerakki, bloklangan abonent holatida ham o'tkazib yuborilgan qo'ng'iroqlar haqida SMS-xabar olish mumkin.`,
+  price:"240 so'm/kun"
+},
+]

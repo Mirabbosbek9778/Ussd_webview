@@ -5,7 +5,7 @@ import { tariff } from '../../../mock/category';
 import TarifCard from '../../../components/Generic/cards/TarifCard';
 import Copy from '../../../components/Copy';
 import SingleCard from '../../../components/Description';
-const Details = ({}) => {
+const Details = () => {
   const [filter, setFilter] = useState([]);
   const param = useParams();
 
@@ -15,10 +15,7 @@ const Details = ({}) => {
     );
     setFilter(res);
   }, [param.id]);
-  // console.log(param);
-
-  //   console.log(filter[0]?.minutes);
-
+  console.log('hello');
   return (
     <>
       <div className='h-[89px]'></div>
