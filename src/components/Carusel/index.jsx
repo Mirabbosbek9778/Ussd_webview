@@ -14,9 +14,12 @@ export default function Carosel() {
       <div className='w-max-[375px] h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
         <Swiper
           // spaceBetween={20}
+          // centeredSlides={true}
+          // slidesPerView={1}
+          spaceBetween={30}
+          slidesPerView={'auto'}
           centeredSlides={true}
-          slidesPerView={1}
-          // spaceBetween={30}
+          loop={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className='w-full'

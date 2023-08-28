@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import TopBar from '../../../components/TopBar';
+import TopBar from '../../../../components/TopBar';
 import { useParams } from 'react-router-dom';
-import { tariff } from '../../../mock/category';
-import TarifCard from '../../../components/Generic/cards/TarifCard';
-import Copy from '../../../components/Copy';
-import SingleCard from '../../../components/Description';
-const Details = () => {
+import { tariff } from '../../../../mock/category';
+import TarifCard from '../../../../components/Generic/cards/TarifCard';
+import Copy from '../../../../components/Copy';
+import SingleCard from '../../../../components/Description';
+
+const PacketDetail = () => {
   const [filter, setFilter] = useState([]);
   const param = useParams();
 
@@ -28,4 +29,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default PacketDetail;
