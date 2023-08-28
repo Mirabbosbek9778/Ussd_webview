@@ -29,7 +29,7 @@ export default function Carosel() {
             <SwiperSlide key={el.id} className='flex justify-center'>
               <img
                 className='w-[291px] rounded-lg'
-                onClick={(e) => alert(e?.screenY)}
+                onClick={(e) => console.log(e?.screenY)}
                 src={el.image}
                 alt='img'
               />
