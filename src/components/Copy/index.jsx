@@ -1,7 +1,6 @@
 import React from 'react';
 import { CopyIcon } from '../iconsStyle';
 import { Wrapper, TarifCode, TarifWrite, Box } from './style';
-console.log(window);
 const Copy = () => {
   return (
     <Wrapper>

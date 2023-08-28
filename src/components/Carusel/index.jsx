@@ -23,10 +23,16 @@ export default function Carosel() {
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className='w-full'
+          // onClick={(e) => console.log(e)}
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
-              <img className='w-[291px] rounded-lg' src={el.image} alt='img' />
+              <img
+                className='w-[291px] rounded-lg'
+                onClick={(e) => alert(e?.screenY)}
+                src={el.image}
+                alt='img'
+              />
             </SwiperSlide>
           ))}
         </Swiper>
