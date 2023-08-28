@@ -23,7 +23,7 @@ export default function Carosel() {
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className='w-full'
-          // onClick={(e) => console.log(e)}
+          onSlideChange={(e) => alert(e.activeIndex)}
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
