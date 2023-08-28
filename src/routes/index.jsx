@@ -1,10 +1,9 @@
 import { Routes as BrowserRoutes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import USSD from "../pages/USSD";
-import Tarif from "../pages/TarifPage"
+import Tarif from "../pages/TarifPage";
 import InternetPakets from "../pages/InternetPakets/index";
 import CallCenter from "../pages/CallCenter";
-import SingleCard from "../components/SingleCardOff";
 import Services from "../pages/Services";
 import SingleServiceP from "../pages/Services/SingleServiceP";
 export const Routes = () => (
@@ -48,8 +47,6 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path="/single-cart" element={<SingleCard />} />
-
     <Route path="/" element={<Home />} />
     <Route path="/discount" element={<h1>acsiyalar</h1>} />
     <Route

@@ -1,5 +1,5 @@
 import React from "react";
-import { Services } from "../../mock/category";
+import { Services } from "../../mock/ServiceCodes";
 import ServiceCard from "../../components/ServiceCard";
 import TopBar from "../../components/TopBar/index";
 import { Link } from "react-router-dom";

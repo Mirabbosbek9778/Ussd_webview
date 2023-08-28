@@ -1,8 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Services } from "../../mock/category";
+import { Services } from "../../mock/ServiceCodes";
 import { serviceicon } from "../../assets";
 import TopBar from "../../components/TopBar";
+import SingleCard from "../../components/Description";
+import Copy from "../../components/Copy";
 const SingleServiceP = () => {
   const { id } = useParams();
   const selectedElem = Services.filter((item) => item.id.toString() === id);
@@ -10,7 +12,17 @@ const SingleServiceP = () => {
   return (
     <div>
       <TopBar title={selectedElem[0].title} />
-      <div className="py-[89px] px-4">
+      <SingleCard />
+      <Copy />
+      <button>Xizmatni faollashtirish</button>
+      <button>Xizmatni o’chirish</button>
+    </div>
+  );
+};
+
+export default SingleServiceP;
+{
+  /* <div className="py-[89px] px-4">
         {" "}
         <div className="bg-[var(--background-color)]">
           {" "}
@@ -40,11 +52,5 @@ const SingleServiceP = () => {
         </div>
       </div>
       <p>Tavsif</p>
-      <p className="text-[var(--arrow-icon-color)]">{selectedElem[0].text}</p>
-      <button>Xizmatni faollashtirish</button>
-      <button>Xizmatni o’chirish</button>
-    </div>
-  );
-};
-
-export default SingleServiceP;
+      <p className="text-[var(--arrow-icon-color)]">{selectedElem[0].text}</p> */
+}
