@@ -8,6 +8,7 @@ import SingleCard from '../components/SingleCardOff';
 import Services from '../pages/Services';
 import SingleServiceP from '../pages/Services/SingleServiceP';
 import InternetFullpackets from '../pages/InternetPakets/Packets/FullPackets';
+import InternetDetails from '../pages/InternetPakets/Packets/PacketDetail';
 import TariffDetail from '../pages/TarifPage/Details';
 export const Routes = () => (
   <BrowserRoutes>
@@ -72,6 +73,7 @@ export const Routes = () => (
     />
     <Route path='/internet' element={<InternetPakets />} />
     <Route path='/internet/full-packets' element={<InternetFullpackets />} />
+    <Route path='/internet/:id' element={<InternetDetails />} />
     <Route
       path='/services'
       element={
