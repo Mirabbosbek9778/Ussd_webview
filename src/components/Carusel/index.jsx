@@ -8,6 +8,22 @@ import { Navigation } from 'swiper/modules';
 
 import { sildes } from '../../mock/silide';
 
+const checkCompany = (e) => {
+  console.log(e);
+  switch (e) {
+    case 0:
+      return 'uzmobile';
+    case 1:
+      return 'beeline';
+    case 2:
+      return 'ucell';
+    case 3:
+      return 'mobiuz';
+    default:
+      break;
+  }
+};
+
 export default function Carosel() {
   return (
     <Fragment>
@@ -16,14 +32,16 @@ export default function Carosel() {
           // spaceBetween={20}
           // centeredSlides={true}
           // slidesPerView={1}
-          spaceBetween={30}
+          // spaceBetween={30}
           slidesPerView={'auto'}
           centeredSlides={true}
           loop={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className='w-full'
-          onSlideChange={(e) => alert(e.activeIndex)}
+          onSlideChange={(e) => {
+            alert(checkCompany(e.activeIndex));
+          }}
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
