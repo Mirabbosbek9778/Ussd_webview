@@ -65,14 +65,17 @@
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
+  /* text-align: center; */
+  /* font-size: 18px; */
   /* background:; */
   width: 291px !important;
   /* Center slide text vertically */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.swiper-slide:first {
+  margin-left: 6px;
 }
 /* 
 .swiper-slide img {

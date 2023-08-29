@@ -7,7 +7,6 @@ import 'swiper/css/scrollbar';
 import { Navigation } from 'swiper/modules';
 
 import { sildes } from '../../mock/silide';
-import { useState } from 'react';
 
 const checkCompany = (e) => {
   console.log(e);
@@ -41,7 +40,7 @@ export default function Carosel() {
           modules={[Navigation]}
           className='w-full'
           onSlideChange={(e) => {
-            setCompany(checkCompany(e.activeIndex));
+            checkCompany(e.activeIndex);
           }}
         >
           {sildes?.map((el) => (
