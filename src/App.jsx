@@ -1,12 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Routes } from './routes';
 import Container from './components/Generic/container/Continer';
+import MainContextProvider from './context';
 const App = () => {
   return (
     <BrowserRouter>
-      <Container>
-        <Routes />
-      </Container>
+      <MainContextProvider>
+        <Container>
+          <Routes />
+        </Container>
+      </MainContextProvider>
     </BrowserRouter>
   );
 };
