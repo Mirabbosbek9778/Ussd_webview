@@ -4,12 +4,12 @@ import USSD from '../pages/USSD';
 import Tarif from '../pages/TarifPage';
 import InternetPakets from '../pages/InternetPakets/index';
 import CallCenter from '../pages/CallCenter';
-import SingleCard from '../components/SingleCardOff';
 import Services from '../pages/Services';
 import SingleServiceP from '../pages/Services/SingleServiceP';
 import InternetFullpackets from '../pages/InternetPakets/Packets/FullPackets';
 import InternetDetails from '../pages/InternetPakets/Packets/PacketDetail';
 import TariffDetail from '../pages/TarifPage/Details';
+import SingleCard from '../components/Description';
 export const Routes = () => (
   <BrowserRoutes>
     <Route path='/' element={<Home />} />
@@ -51,10 +51,10 @@ export const Routes = () => (
         </>
       }
     />
-    <Route path='/single-cart' element={<SingleCard />} />
 
     <Route path='/' element={<Home />} />
     <Route path='/discount' element={<h1>acsiyalar</h1>} />
+    <Route path='/single-cart' element={<SingleCard />} />
     <Route
       path='/settings'
       element={
@@ -95,14 +95,6 @@ export const Routes = () => (
       element={
         <>
           <h1>call-center</h1>
-        </>
-      }
-    />
-    <Route
-      path='/restart'
-      element={
-        <>
-          <h1>restart</h1>
         </>
       }
     />

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   background-color: white;
   display: flex;
-  border: 1px solid --border-color;
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   flex-direction: column;
   padding: 18px 14px;
@@ -34,3 +34,4 @@ export const Box = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+

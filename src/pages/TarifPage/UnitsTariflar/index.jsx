@@ -1,13 +1,14 @@
+import React from "react";
+import { unitsTariff } from "../../../mock/tarifCategory";
 import TarifCard from "../../../components/Generic/cards/TarifCard";
 import { useNavigate } from "react-router-dom";
-import { tariff } from "../../../mock/tarifCategory";
 
-const Tarifs = () => {
+const UnitsTarifs = () => {
   const navigate = useNavigate();
 
   return (
     <div className="flex flex-col gap-4 my-5 mr-4">
-      {tariff[0].tarifs.map((item, index) => (
+      {unitsTariff[0].tarifUnits.map((item, index) => (
         <TarifCard
           key={index}
           onclick={() => {
@@ -20,6 +21,7 @@ const Tarifs = () => {
   );
 };
 
-export default Tarifs;
+export default UnitsTarifs;
 
-// fcvgbhnjkm
+
+// fcgvhbjk

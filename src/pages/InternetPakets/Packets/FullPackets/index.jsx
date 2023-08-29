@@ -1,6 +1,6 @@
 import InternetCard from '../../../../components/Generic/cards/InternetCard';
 import TopBar from '../../../../components/TopBar';
-import { internet } from '../../../../mock/category';
+import { internet } from '../../../../mock/internets';
 import { useNavigate } from 'react-router-dom';
 
 const InternetDetails = () => {

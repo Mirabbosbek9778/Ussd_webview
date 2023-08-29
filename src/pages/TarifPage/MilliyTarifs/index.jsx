@@ -1,13 +1,13 @@
+import React from "react";
+import { milliyTarifs } from "../../../mock/tarifCategory";
 import TarifCard from "../../../components/Generic/cards/TarifCard";
 import { useNavigate } from "react-router-dom";
-import { tariff } from "../../../mock/tarifCategory";
 
-const Tarifs = () => {
+const MilliyTarifs = () => {
   const navigate = useNavigate();
-
   return (
     <div className="flex flex-col gap-4 my-5 mr-4">
-      {tariff[0].tarifs.map((item, index) => (
+      {milliyTarifs[0].milliyTarifss.map((item, index) => (
         <TarifCard
           key={index}
           onclick={() => {
@@ -20,6 +20,4 @@ const Tarifs = () => {
   );
 };
 
-export default Tarifs;
-
-// fcvgbhnjkm
+export default MilliyTarifs;

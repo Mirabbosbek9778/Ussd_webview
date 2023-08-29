@@ -1,6 +1,5 @@
-import React from 'react';
 import TopBar from '../../components/TopBar';
-import { UssdCodes } from '../../mock/category';
+import { UssdCodes } from '../../mock/ussdkodlar';
 import USSDCard from '../../components/UssdCard/USSDCard';
 import { callUssd } from '../../utils';
 const USSD = () => {
