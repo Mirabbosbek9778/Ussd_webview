@@ -1,22 +1,15 @@
 import { Modal } from "antd";
-import { useState } from "react";
 import { Active, BtnModal, BtnP, Cancel } from "./style";
 
-const ModalButtons = ({ package_name, price }) => {
-  const [contextHolder] = Modal.useModal();
-  const [isModalVisible, setIsModalVisible] = useState(false);
-
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-
+const ModalButtons = (props) => {
   const handleOk = () => {
-    setIsModalVisible(false);
+    props?.close(false);
   };
 
   const handleCancel = () => {
-    setIsModalVisible(false);
+    props?.close(false);
   };
+
   return (
     <div>
       <Modal
@@ -26,12 +19,12 @@ const ModalButtons = ({ package_name, price }) => {
               <BtnModal>Paketni faollashtirish</BtnModal>
             </div>
             <BtnP className="text-center">
-              Siz {package_name} tarifini <p>faollashtirmoqchisiz</p>
-              O’tish narxi:{price} so’m
+              Siz {props?.dataName} tarifini <p>faollashtirmoqchisiz</p>
+              O’tish narxi:{props?.dataPrice} so’m
             </BtnP>
           </div>
         }
-        open={isModalVisible}
+        open={props?.shown}
         footer={null}
         closable={false}
         style={{

@@ -10,7 +10,7 @@ export const tariff = [
         category_id: 1,
         deadline: "oylik",
         time: "",
-        ussd_code: "*111*1*11*9#",
+        ussd_code: `*111*1*11*9#`,
         price: 22000,
         sms: 0,
         minutes: "Cheksiz",
