@@ -1,8 +1,5 @@
 import {
-    internetMenuIcon,
     operatorMenuIcon,
-    emailmenuIcon,
-    chatBot
 } from '../assets';
 
 export const CallCenterCodesUcell = [
