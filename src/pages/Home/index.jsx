@@ -3,7 +3,7 @@ import { category } from '../../mock/category';
 import CategoryCard from '../../components/Generic/cards/Category-card';
 import Navbar from '../../components/Navbar';
 import TopDriver from '../../components/driver/Top-driver';
-const index = () => {
+const Home = () => {
   return (
     <div className='w-full'>
       <div className='fixed top-0 left-0 right-0 max-w-[700px] min-w-[375px] mx-auto text-center'>
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;
