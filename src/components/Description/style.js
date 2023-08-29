@@ -12,7 +12,7 @@ export const TitleText = styled.div`
 export const Description = styled.div`
   color: var(--gray-500, #333);
   font-family: Okta Neue, sans-serif;
-  height: 30vh;
+  height: 20vh;
   overflow: auto;
   font-size: 14px;
   font-style: normal;
@@ -27,6 +27,7 @@ export const Description = styled.div`
 export const BtnActive = styled.div`
   background-color: var(--ussd-color);
   display: flex;
+
   border: 1px solid red gap;
   /* margin-top: 16px; */
   margin: 16px 16px 16px 16px;
@@ -35,6 +36,8 @@ export const BtnActive = styled.div`
   flex-direction: column;
   gap: 13px;
   padding-top: 15px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
   color: white;
 `;
 

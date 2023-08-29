@@ -1,18 +1,16 @@
-
-import React from 'react';
 import { CopyIcon } from '../iconsStyle';
 import { Wrapper, TarifCode, TarifWrite, Box } from './style';
-const Copy = () => {
+const Copy = ({ isFull, activate }) => {
   return (
     <Wrapper>
-      <TarifWrite>Tarifga o'tish</TarifWrite>
+      <TarifWrite>
+        {isFull ? 'Xizmatni faollashtirish' : " Xizmatni o'chirish"}
+      </TarifWrite>
       <Box>
-        <TarifCode>{ussd_code}</TarifCode>
-        <button>
-          <CopyIcon
-            onClick={() => window.navigator.clipboard.writeText(ussd_code)}
-          />
-        </button>
+        <TarifCode>{activate}</TarifCode>
+        <CopyIcon
+          onClick={() => window.navigator.clipboard.writeText(activate)}
+        />
       </Box>
     </Wrapper>
   );
