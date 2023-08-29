@@ -1,7 +1,11 @@
 import InternetCard from '../../../../components/Generic/cards/InternetCard';
 import TopBar from '../../../../components/TopBar';
 import { internet } from '../../../../mock/category';
+import { useNavigate } from 'react-router-dom';
+
 const InternetDetails = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className='h-[89px]'></div>
@@ -12,7 +16,14 @@ const InternetDetails = () => {
         </h1>
         <div className='mt-[16px] flex flex-col gap-4'>
           {internet[0].pakets.map((item, index) => (
-            <InternetCard item={item} fullCard={'true'} key={index} />
+            <InternetCard
+              item={item}
+              fullCard={'true'}
+              key={index}
+              onclick={() => {
+                navigate(`/internet/${item.id}`);
+              }}
+            />
           ))}
         </div>
       </div>

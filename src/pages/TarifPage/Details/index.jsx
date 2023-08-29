@@ -5,7 +5,6 @@ import TarifCard from "../../../components/Generic/cards/TarifCard";
 import Copy from "../../../components/Copy";
 import SingleCard from "../../../components/Description";
 import { tariff, unitsTariff } from "../../../mock/tarifCategory";
-// import UnitsTarifs from "../UnitsTariflar";
 
 const Details = () => {
   const [filter, setFilter] = useState([]);
@@ -34,7 +33,6 @@ const Details = () => {
       <TopBar title="Tarif Rejalar" />
       <div className="flex flex-col gap-4 p-4">
         <TarifCard {...filter[0]} detail />
-        {/* <TarifCard {...units[0]} detail /> */}
         <Copy />
         <SingleCard {...filter[0]} />
       </div>

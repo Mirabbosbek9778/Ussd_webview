@@ -1,8 +1,8 @@
-import React from "react";
-import { CopyIcon } from "../iconsStyle";
-import { Wrapper, TarifCode, TarifWrite, Box } from "./style";
 
-const Copy = ({ ussd_code }) => {
+import React from 'react';
+import { CopyIcon } from '../iconsStyle';
+import { Wrapper, TarifCode, TarifWrite, Box } from './style';
+const Copy = () => {
   return (
     <Wrapper>
       <TarifWrite>Tarifga o'tish</TarifWrite>
