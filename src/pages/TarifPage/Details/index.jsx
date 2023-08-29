@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import TopBar from '../../../components/TopBar';
-import { useParams } from 'react-router-dom';
-import { tariff } from '../../../mock/category';
-import TarifCard from '../../../components/Generic/cards/TarifCard';
-import Copy from '../../../components/Copy';
-import SingleCard from '../../../components/Description';
+import React, { useEffect, useState } from "react";
+import TopBar from "../../../components/TopBar";
+import { useParams } from "react-router-dom";
+import { tariff } from "../../../mock/category";
+import TarifCard from "../../../components/Generic/cards/TarifCard";
+import Copy from "../../../components/Copy";
+import SingleCard from "../../../components/Description";
 const Details = () => {
   const [filter, setFilter] = useState([]);
   const param = useParams();
@@ -15,13 +15,14 @@ const Details = () => {
     );
     setFilter(res);
   }, [param.id]);
+  console.log(filter);
   return (
     <>
-      <div className='h-[89px]'></div>
-      <TopBar title='Tarif Rejalar' />
-      <div className='flex flex-col p-4 gap-4'>
+      <div className="h-[89px]"></div>
+      <TopBar title="Tarif Rejalar" />
+      <div className="flex flex-col p-4 gap-4">
         <TarifCard {...filter[0]} detail />
-        <Copy />
+        <Copy activate={filter[0]?.ussd_code} />
         <SingleCard {...filter[0]} />
       </div>
     </>

@@ -3,8 +3,9 @@ import { useParams } from "react-router-dom";
 import { Services } from "../../mock/ServiceCodes";
 import { serviceicon } from "../../assets";
 import TopBar from "../../components/TopBar";
-import SingleCard from "../../components/Description";
 import Copy from "../../components/Copy";
+import Description from "../../components/Description";
+import { BtnActive2 } from "./style";
 const SingleServiceP = () => {
   const { id } = useParams();
   const selectedElem = Services.filter((item) => item.id.toString() === id);
@@ -12,45 +13,51 @@ const SingleServiceP = () => {
   return (
     <div>
       <TopBar title={selectedElem[0].title} />
-      <SingleCard />
-      <Copy />
-      <button>Xizmatni faollashtirish</button>
-      <button>Xizmatni o’chirish</button>
+      <div className="pt-[89px] pb-[34px] px-4">
+        {" "}
+        <div className="bg-[var(--background-color)] px-2 my-4  py-[14px] rounded-xl">
+          {" "}
+          <h1 className="text-[var(--ussd-color)] pb-[10px] text-[20px] font-[500]">
+            {selectedElem[0].title}
+          </h1>
+          <p className="text-[var(--arrow-icon-color)] ">
+            {selectedElem[0].text}
+          </p>
+          <div className="flex items-center pt-[18px] ">
+            <img
+              src={serviceicon}
+              alt=""
+              className="bg-[var(--border-color)] p-1 rounded-lg"
+            />
+            <p className="pl-2 text-[var(--icon-color)] ">Xizmat narxi</p>{" "}
+            <p className="bg-[var(--ussd-color)] ml-[120px] rounded-xl p-1  text-[14px] text-[var(--card-color)] text-center">
+              {selectedElem[0].price}
+            </p>
+          </div>
+        </div>
+        <Copy activate={selectedElem[0].activate} isFull={true} />
+        <div className="mt-2">
+          {" "}
+          <Copy activate={selectedElem[0].unactivate} isFull={false} />
+        </div>
+      </div>
+      <div className="px-4">
+        {" "}
+        <Description {...selectedElem[0]} />
+      </div>
+      <div className=" px-4" >
+        {" "}
+        <BtnActive2>
+          <button className="text-[var(--ussd-color)]">
+            Paketni o'chirish
+          </button>
+        </BtnActive2>
+      </div>
     </div>
   );
 };
 
 export default SingleServiceP;
 {
-  /* <div className="py-[89px] px-4">
-        {" "}
-        <div className="bg-[var(--background-color)]">
-          {" "}
-          <h1 className="text-[var(--ussd-color)]">{selectedElem[0].title}</h1>
-          <p className="text-[var(--arrow-icon-color)]">
-            {selectedElem[0].description}
-          </p>
-          <div>
-            <img src={serviceicon} alt="" />
-            <p>Xizmat narxi</p>{" "}
-            <p className="bg-[var(--ussd-color)]">
-              {selectedElem[0].price} so'm/kun
-            </p>
-          </div>
-        </div>
-        <div>
-          <p>Xizmatni faollashtirish</p>
-          <p className="text-[var(--ussd-color)]">
-            {selectedElem[0].activate}
-          </p>{" "}
-        </div>
-        <div>
-          <p>Xizmatni o’chirish</p>
-          <p className="text-[var(--ussd-color)]">
-            {selectedElem[0].unactivate}
-          </p>{" "}
-        </div>
-      </div>
-      <p>Tavsif</p>
-      <p className="text-[var(--arrow-icon-color)]">{selectedElem[0].text}</p> */
+  /*  */
 }

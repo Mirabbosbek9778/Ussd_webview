@@ -3,7 +3,7 @@ import { BtnActive, Description, TitleText } from './style';
 
 const SingleCard = ({ description }) => {
   return (
-    <div>
+    <div className='relative '>
       <TitleText className=''>Tavsif</TitleText>
       <Description>{description}</Description>
       <BtnActive>
