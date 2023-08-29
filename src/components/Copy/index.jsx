@@ -1,8 +1,8 @@
+
 import React, { useState } from "react";
-import { CopyIcon } from "../iconsStyle";
-import { Wrapper, TarifCode, TarifWrite, Box } from "./style";
-const Copy = (props) => {
-  const [state, setstate] = useState(true);
+import { CopyIcon } from '../iconsStyle';
+import { Wrapper, TarifCode, TarifWrite, Box } from './style';
+const Copy = () => {
   return (
     <Wrapper>
       <TarifWrite>
