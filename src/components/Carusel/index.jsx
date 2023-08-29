@@ -47,7 +47,7 @@ export default function Carosel() {
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
               <img
-                className='w-[291px] rounded-lg'
+                className='w-[291px] img-carusel  rounded-lg'
                 onClick={(e) => console.log(e?.screenY)}
                 src={el.image}
                 alt='img'
