@@ -7,6 +7,7 @@ import 'swiper/css/scrollbar';
 import { Navigation } from 'swiper/modules';
 
 import { sildes } from '../../mock/silide';
+import { useState } from 'react';
 
 const checkCompany = (e) => {
   console.log(e);
@@ -27,7 +28,7 @@ const checkCompany = (e) => {
 export default function Carosel() {
   return (
     <Fragment>
-      <div className='w-max-[375px] h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
+      <div className=' h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
         <Swiper
           // spaceBetween={20}
           // centeredSlides={true}
@@ -35,12 +36,12 @@ export default function Carosel() {
           // spaceBetween={30}
           slidesPerView={'auto'}
           centeredSlides={true}
-          loop={true}
+          // loop={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className='w-full'
           onSlideChange={(e) => {
-            alert(checkCompany(e.activeIndex));
+            setCompany(checkCompany(e.activeIndex));
           }}
         >
           {sildes?.map((el) => (
