@@ -55,8 +55,6 @@ export const Routes = () => (
     <Route path="/" element={<Home />} />
     <Route path="/discount" element={<h1>acsiyalar</h1>} />
     <Route path="/single-cart" element={<SingleCard />} />
-    <Route path="/" element={<Home />} />
-    <Route path="/discount" element={<h1>acsiyalar</h1>} />
     <Route
       path="/settings"
       element={
