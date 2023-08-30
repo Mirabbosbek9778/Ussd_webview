@@ -3,7 +3,6 @@ export const internet = [
     category_id: 2,
     name1: '30 kunlik paketlar',
     company_name: 'Beeline',
-    company_name: 'Beeline',
     pakets: [
       {
         id: 1,
@@ -17,7 +16,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 2,
@@ -33,7 +42,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 3,
@@ -49,7 +68,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 3,
@@ -64,7 +93,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 3,
@@ -79,7 +118,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description:`*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
     ],
 
@@ -97,7 +146,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 9000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 2,
@@ -107,7 +166,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
       {
         id: 3,
@@ -117,7 +186,17 @@ export const internet = [
         time: '',
         ussd_code: '*100#',
         price: 15000,
-        description: "bu yerda description bo'ladi",
+        description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+        Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
+        Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
+        Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
+        Abonent to‘lovi (keyingi o‘rinlarda - AT) hisoblanishi abonent “faol” holatda bo‘lganda amalga oshiriladi. Agar abonent hisob raqamida yetarli miqdorda pul mablagʻlari bo‘lmaganligi sababli bloklangan bo‘lsa, AT to‘lov kiritilmagunga qadar hisoblanmaydi.
+        Ushbu TR doirasida AT hisoblanishining boshlanishi yagona jadval bo‘yicha emas, balki har bir abonent uchun alohida hisob-kitob davri bo‘yicha aniq soniyaga qadar amalga oshiriladi. TR doirasida ATni yechib olish vaqti aniq belgilanmagan bo‘lib, xizmatlardan foydalanish imkoniyati taqdim etilgan vaqtga bog‘liq bo‘ladi.
+        ATning hisob-kitob davri kalendar oyining 1-sanasiga bog‘lanmagan holda 1 (bir) oyni tashkil etadi va abonentga xizmatdan foydalanish imkoniyati taqdim etilgan sanadan boshlab hisoblanadi. Hisob-kitob sanasi abonentning hisob-kitob davri uchun ATni hisoblashdagi boshlang‘ich nuqtasi hisoblanadi. 
+        Misol uchun, abonent TRga 10-sanada ulangan bo‘lsa, u holda navbatdagi oylik AT keyingi oyning 10-sanasida abonentning shaxsiy hisob raqamida TR bo‘yicha AT uchun yetarli miqdorda pul mablag‘lari bo‘lgandagina yechib olinadi. Agarda abonent 31-avgust kuni ulangan bo‘lsa, u holda navbatdagi ATni yechib olishga urinish 
+        30-sentabr kuni amalga oshiriladi.
+        Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
+        Xizmatlar limiti va AT masshtablashtirilmaydi.`,
       },
     ],
   }, {

@@ -35,41 +35,25 @@ export default function Carosel() {
         type: 'setCompany',
         payload: checkCompany(activeIndex),
       });
-    dispatch({
-      type: 'setCompanyIndex',
-      payload: activeSlideIndex,
-    });
-    // handleSwiper();
   };
-  console.log(state?.companyIndex);
-  // const handleSwiper = (event) => {};
 
   useEffect(() => {
     swiperRef?.slideTo(3, 0);
   }, []);
 
-  // const slideTo = (index) => {
-  //   setSwiperRef.slideTo(index - 1, 0);
-  // };
-
   return (
     <>
       <div className=' h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
         <Swiper
-          // spaceBetween={20}
-          // centeredSlides={true}
-          // slidesPerView={1}
-          // spaceBetween={30}
+
           slidesPerView={'auto'}
           centeredSlides={true}
-          // loop={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
-          // initialSlide={activeSlide}
+          initialSlide={activeSlideIndex}
           className='w-full'
           onSlideChange={handleSlideChange}
           onSwiper={setSwiperRef}
-          // virtual
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
