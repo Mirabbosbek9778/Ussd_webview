@@ -36,4 +36,16 @@ export const Tab = styled(Tabs)`
     padding: 16px 0 0 0;
     margin: 0 !important;
   }
+
+  .ant-tabs-ink-bar {
+    background: var(--ussd-color);
+  }
+
+  .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--ussd-color) !important ;
+  }
+
+  .ant-tabs-tab:hover {
+    color: var(--ussd-color) !important;
+  }
 `;

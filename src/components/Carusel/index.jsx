@@ -1,15 +1,14 @@
-import { Fragment } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+import { sildes } from '../../mock/silide';
+import { useCompany } from '../../context/Company';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { Navigation } from 'swiper/modules';
-
-import { sildes } from '../../mock/silide';
+import { useEffect, useState } from 'react';
 
 const checkCompany = (e) => {
-  console.log(e);
   switch (e) {
     case 0:
       return 'uzmobile';
@@ -20,13 +19,41 @@ const checkCompany = (e) => {
     case 3:
       return 'mobiuz';
     default:
-      break;
+      return 'uzmobile';
   }
 };
 
 export default function Carosel() {
+  const [activeSlideIndex, setActiveSlide] = useState(0);
+  const [swiperRef, setSwiperRef] = useState(null);
+  const [state, dispatch] = useCompany();
+  const swiperSlide = useSwiper();
+
+  const handleSlideChange = ({ activeIndex }) => {
+    setActiveSlide(activeIndex),
+      dispatch({
+        type: 'setCompany',
+        payload: checkCompany(activeIndex),
+      });
+    dispatch({
+      type: 'setCompanyIndex',
+      payload: activeSlideIndex,
+    });
+    // handleSwiper();
+  };
+  console.log(state?.companyIndex);
+  // const handleSwiper = (event) => {};
+
+  useEffect(() => {
+    swiperRef?.slideTo(3, 0);
+  }, []);
+
+  // const slideTo = (index) => {
+  //   setSwiperRef.slideTo(index - 1, 0);
+  // };
+
   return (
-    <Fragment>
+    <>
       <div className=' h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
         <Swiper
           // spaceBetween={20}
@@ -38,16 +65,16 @@ export default function Carosel() {
           // loop={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
+          // initialSlide={activeSlide}
           className='w-full'
-          onSlideChange={(e) => {
-            checkCompany(e.activeIndex);
-          }}
+          onSlideChange={handleSlideChange}
+          onSwiper={setSwiperRef}
+          // virtual
         >
           {sildes?.map((el) => (
             <SwiperSlide key={el.id} className='flex justify-center'>
               <img
                 className='w-[291px] img-carusel  rounded-lg'
-                onClick={(e) => console.log(e?.screenY)}
                 src={el.image}
                 alt='img'
               />
@@ -55,6 +82,6 @@ export default function Carosel() {
           ))}
         </Swiper>
       </div>
-    </Fragment>
+    </>
   );
 }
