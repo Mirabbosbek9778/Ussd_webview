@@ -1,5 +1,5 @@
-import React from 'react';
-import { BtnUssd, TextUssd, CodeUssd } from './style';
+import React from "react";
+import { BtnUssd, TextUssd, CodeUssd } from "./style";
 const USSDCard = ({ title, code, onclick }) => {
   return (
     <BtnUssd onClick={() => onclick(code)}>

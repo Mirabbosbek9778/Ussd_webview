@@ -1,6 +1,7 @@
 import InternetCard from "../Generic/cards/InternetCard";
 import { CardDiv, MainBtn } from "../Generic/cards/InternetCard/style";
 import { useNavigate } from "react-router-dom";
+
 const InternetCards = ({ pakets, name1 }) => {
   const navigate = useNavigate();
   const handleSeeAllClick = () => {
