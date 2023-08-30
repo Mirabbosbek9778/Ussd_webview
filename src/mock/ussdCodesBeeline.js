@@ -50,3 +50,6 @@ export const UssdCodesBeeline = [
     code: "*202#",
   },
 ];
+
+
+// nm
