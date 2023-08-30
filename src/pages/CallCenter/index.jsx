@@ -6,7 +6,6 @@ const index = () => {
   const [state, setstate] = useState(false);
   const handleLinkClick = (item1) => {
     if (+item1 === Number) {
-      console.log('link');
     }
   };
   return (

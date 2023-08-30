@@ -1,23 +1,24 @@
-export const internet = [
+export const internetUzmobile = [
   {
     category_id: 1,
-    company_name: 'Beeline',
+    company_name: 'Uzmobile',
     category: 'Internet paketlar',
-    pakets: {
-      ottiz_kunlik: [
-        {
-          id: 1,
-          package_name: '1 GB',
-          category_id: 2,
-          deadline: '30 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 9000,
-          deadline: 'oylik',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+    pakets: [
+      {
+        data: [
+          {
+            id: 1,
+            package_name: '1 GB',
+            category_id: 2,
+            deadline: '30 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 9000,
+            deadline: 'oylik',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
         Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -28,22 +29,22 @@ export const internet = [
         30-sentabr kuni amalga oshiriladi.
         Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
         Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 2,
-          package_name: '1.5 GB',
-          category_id: 2,
+          },
+          {
+            id: 2,
+            package_name: '1.5 GB',
+            category_id: 2,
 
-          deadline: '30 kun',
-          time: '',
-          ussd_code: '*100#',
-          package_name: '10 GB',
-          category_id: 2,
-          deadline: 'haftalik',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+            deadline: '30 kun',
+            time: '',
+            ussd_code: '*100#',
+            package_name: '10 GB',
+            category_id: 2,
+            deadline: 'haftalik',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
         Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -54,22 +55,22 @@ export const internet = [
         30-sentabr kuni amalga oshiriladi.
         Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
         Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 3,
-          package_name: '2 GB',
-          category_id: 2,
+          },
+          {
+            id: 3,
+            package_name: '2 GB',
+            category_id: 2,
 
-          deadline: '30 kun',
-          time: '',
-          ussd_code: '*100#',
-          package_name: '15 GB',
-          category_id: 2,
-          deadline: 'kunlik',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+            deadline: '30 kun',
+            time: '',
+            ussd_code: '*100#',
+            package_name: '15 GB',
+            category_id: 2,
+            deadline: 'kunlik',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
         Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -80,21 +81,21 @@ export const internet = [
         30-sentabr kuni amalga oshiriladi.
         Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
         Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 3,
-          package_name: '2 GB',
-          category_id: 2,
-          deadline: '30 kun',
-          time: '',
-          ussd_code: '*100#',
-          package_name: '15 GB',
-          category_id: 2,
-          deadline: 'kunlik',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+          },
+          {
+            id: 3,
+            package_name: '2 GB',
+            category_id: 2,
+            deadline: '30 kun',
+            time: '',
+            ussd_code: '*100#',
+            package_name: '15 GB',
+            category_id: 2,
+            deadline: 'kunlik',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
         Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -105,21 +106,21 @@ export const internet = [
         30-sentabr kuni amalga oshiriladi.
         Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
         Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 3,
-          package_name: '2 GB',
-          category_id: 2,
-          deadline: '30 kun',
-          time: '',
-          ussd_code: '*100#',
-          package_name: '15 GB',
-          category_id: 2,
-          deadline: 'kunlik',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+          },
+          {
+            id: 3,
+            package_name: '2 GB',
+            category_id: 2,
+            deadline: '30 kun',
+            time: '',
+            ussd_code: '*100#',
+            package_name: '15 GB',
+            category_id: 2,
+            deadline: 'kunlik',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
         Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -130,18 +131,21 @@ export const internet = [
         30-sentabr kuni amalga oshiriladi.
         Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
         Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-      ],
-      kunlik: [
-        {
-          id: 1,
-          package_name: '1 GB',
-          category_id: 2,
-          deadline: '1 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 9000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+          },
+        ],
+        status: '30 kunlik paketlar',
+      },
+      {
+        data: [
+          {
+            id: 1,
+            package_name: '1 GB',
+            category_id: 2,
+            deadline: '1 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 9000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
           Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -152,16 +156,16 @@ export const internet = [
           30-sentabr kuni amalga oshiriladi.
           Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
           Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 2,
-          package_name: '1.5 GB',
-          category_id: 2,
-          deadline: '1 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+          },
+          {
+            id: 2,
+            package_name: '1.5 GB',
+            category_id: 2,
+            deadline: '1 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
           Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -172,16 +176,16 @@ export const internet = [
           30-sentabr kuni amalga oshiriladi.
           Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
           Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-        {
-          id: 3,
-          package_name: '2 GB',
-          category_id: 2,
-          deadline: '1 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 15000,
-          description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
+          },
+          {
+            id: 3,
+            package_name: '2 GB',
+            category_id: 2,
+            deadline: '1 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 15000,
+            description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
           Resurslardan faqat shaxsiy hisobda yetarli miqdorda mablagʻlar boʻlganda foydalanish mumkin.
@@ -192,48 +196,53 @@ export const internet = [
           30-sentabr kuni amalga oshiriladi.
           Limitlar TR bo‘yicha AT muvaffaqiyatli yechib olinganda taqdim etiladi va joriy hisob-kitob davri tugagunga qadar amal qiladi, TR bo‘yicha foydalanilmay qoldirilgan limitlar keyingi hisob-kitob davriga o‘tkazilmaydi.
           Xizmatlar limiti va AT masshtablashtirilmaydi.`,
-        },
-      ],
-      tungi: [
-        {
-          id: 1,
-          package_name: 'Tun Cheksiz',
-          category_id: 2,
-          deadline: '1 tun',
-          time: '',
-          ussd_code: '*111*2*18*1#',
-          price: 6300,
-          description:
-            "'Tungi Internet' doirasida taqdim etilgan Internet trafigi tungi soat 01:00 dan 07:59 gacha amal  qiladi ",
-        },
-        {
-          id: 2,
-          package_name: '7 tun cheksiz  ',
-          category_id: 2,
-          deadline: '1 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 31500,
-          description:
-            "'Tungi Internet xizmati doirasida tqdim etilgan internet trafigi tungi soat 01:00 dan -7:59 gacha amaml qiladi ",
-        },
-        {
-          id: 3,
-          package_name: '30 tun cheksiz',
-          category_id: 2,
-          deadline: '1 kun',
-          time: '',
-          ussd_code: '*100#',
-          price: 99000,
-          description:
-            "'Tungi Internet xizmati doirasida tqdim etilgan internet trafigi tungi soat 01:00 dan -7:59 gacha amaml qiladi",
-        },
-      ],
-    },
+          },
+        ],
+        status: 'Kunlik paketlar',
+      },
+      {
+        data: [
+          {
+            id: 1,
+            package_name: 'Tun Cheksiz',
+            category_id: 2,
+            deadline: '1 tun',
+            time: '',
+            ussd_code: '*111*2*18*1#',
+            price: 6300,
+            description:
+              "'Tungi Internet' doirasida taqdim etilgan Internet trafigi tungi soat 01:00 dan 07:59 gacha amal  qiladi ",
+          },
+          {
+            id: 2,
+            package_name: '7 tun cheksiz  ',
+            category_id: 2,
+            deadline: '1 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 31500,
+            description:
+              "'Tungi Internet xizmati doirasida tqdim etilgan internet trafigi tungi soat 01:00 dan -7:59 gacha amaml qiladi ",
+          },
+          {
+            id: 3,
+            package_name: '30 tun cheksiz',
+            category_id: 2,
+            deadline: '1 kun',
+            time: '',
+            ussd_code: '*100#',
+            price: 99000,
+            description:
+              "'Tungi Internet xizmati doirasida tqdim etilgan internet trafigi tungi soat 01:00 dan -7:59 gacha amaml qiladi",
+          },
+        ],
+        status: 'Tungi paketlar',
+      },
+    ],
   },
   {
     category_id: 2,
-    company_name: 'Beeline',
+    company_name: 'Uzmobile',
     category: 'Non-stop',
     pakets: [
       {
@@ -294,4 +303,3 @@ export const internet = [
     ],
   },
 ];
-export const internetsNon = [];
