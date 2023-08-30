@@ -1,7 +1,6 @@
 import { internetsNon } from "../../../mock/internets";
 import InternetCards from "../../../components/InternetCards";
 const NonStop = () => {
-  console.log(internetsNon);
   return (
     <div className="flex flex-col gap-4 my-5 mr-4">
       {internetsNon.map((item, index) => (
