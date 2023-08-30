@@ -1,4 +1,5 @@
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { sildes } from '../../mock/silide';
 import { useCompany } from '../../context/Company';
@@ -6,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useEffect, useState } from 'react';
 
 const checkCompany = (e) => {
   switch (e) {
@@ -26,31 +26,37 @@ const checkCompany = (e) => {
 export default function Carosel() {
   const [activeSlideIndex, setActiveSlide] = useState(0);
   const [swiperRef, setSwiperRef] = useState(null);
-  const [state, dispatch] = useCompany();
-  const swiperSlide = useSwiper();
-
-  const handleSlideChange = ({ activeIndex }) => {
-    setActiveSlide(activeIndex),
-      dispatch({
-        type: 'setCompany',
-        payload: checkCompany(activeIndex),
-      });
-  };
+  const [, dispatch] = useCompany();
 
   useEffect(() => {
-    swiperRef?.slideTo(3, 0);
-  }, []);
+    const storedIndex = localStorage.getItem('lastActiveSlide');
+    if (storedIndex !== null) {
+      setActiveSlide(Number(storedIndex));
+      if (swiperRef) {
+        swiperRef.slideTo(Number(storedIndex), 0);
+      }
+    }
+  }, [swiperRef]);
+
+  const handleSlideChange = (swiper) => {
+    const activeIndex = swiper.activeIndex;
+    setActiveSlide(activeIndex);
+    dispatch({
+      type: 'setCompany',
+      payload: checkCompany(activeIndex),
+    });
+    localStorage.setItem('lastActiveSlide', activeIndex);
+  };
 
   return (
     <>
       <div className=' h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
         <Swiper
-
           slidesPerView={'auto'}
           centeredSlides={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
-          initialSlide={activeSlideIndex}
+          initialSlide={Number(activeSlideIndex)}
           className='w-full'
           onSlideChange={handleSlideChange}
           onSwiper={setSwiperRef}
