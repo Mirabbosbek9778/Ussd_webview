@@ -41,7 +41,7 @@ export default function Carosel() {
     });
     // handleSwiper();
   };
-  console.log(state?.companyIndex);
+  // console.log(state?.companyIndex);
   // const handleSwiper = (event) => {};
 
   useEffect(() => {

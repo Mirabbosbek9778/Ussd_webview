@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import TopBar from '../../../../components/TopBar';
 import { useParams } from 'react-router-dom';
-import { tariff } from '../../../../mock/tarifCategory';
+import { tariffUzmobile } from '../../../../mock/tarifCategory';
 import TarifCard from '../../../../components/Generic/cards/TarifCard';
 import Copy from '../../../../components/Copy';
 import SingleCard from '../../../../components/Description';

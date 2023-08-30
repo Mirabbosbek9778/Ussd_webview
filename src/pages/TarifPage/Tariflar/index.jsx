@@ -1,17 +1,19 @@
-import TarifCard from "../../../components/Generic/cards/TarifCard";
-import { useNavigate } from "react-router-dom";
-import { tariff } from "../../../mock/tarifCategory";
+import TarifCard from '../../../components/Generic/cards/TarifCard';
+import { useNavigate } from 'react-router-dom';
+import { tariffUzmobile } from '../../../mock/tarifCategory';
+import { useCompany } from '../../../context/Company';
 
-const Tarifs = () => {
+const Tarifs = ({ data }) => {
+  const [, dispatch] = useCompany();
   const navigate = useNavigate();
-
   return (
-    <div className="flex flex-col gap-4 my-5 mr-4">
-      {tariff[0].tarifs.map((item, index) => (
+    <div className='flex flex-col gap-4 my-5 mr-4'>
+      {data?.map((item, index) => (
         <TarifCard
           key={index}
           onclick={() => {
             navigate(`/tarif/detailed/${item.id}`);
+            dispatch({ type: 'setTarifDetail', payload: item });
           }}
           {...item}
         />
@@ -21,5 +23,3 @@ const Tarifs = () => {
 };
 
 export default Tarifs;
-
-// fcvgbhnjkm

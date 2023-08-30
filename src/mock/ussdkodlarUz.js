@@ -7,7 +7,7 @@ export const UssdCodes = [
   {
     id: 2,
     title: 'Shaxsiy balansingizni tekshirish',
-    code: '*100*5*',
+    code: '*100*5#',
   },
   {
     id: 3,
