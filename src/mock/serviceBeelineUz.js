@@ -60,3 +60,5 @@ export const serviceBeelineUz = [
     description: `Endi siz yangi “Stingray Music” xizmati bilan pop, rap, rok, jazz va boshqa turli janrlardagi musiqalarni uzluksiz oqimda tinglashingiz mumkin.Xizmat Beeline Music & Radio Uzbekistan ilovasida Android versiyasi uchun mavjud.`,
   },
 ];
+
+// =================================================================
