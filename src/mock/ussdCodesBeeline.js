@@ -12,17 +12,17 @@ export const UssdCodesBeeline = [
   {
     id: 3,
     title: 'Balans haqida ma’lumot;',
-    code: '*102# ',
+    code: '*102#',
   },
   {
     id: 4,
     title: 'daqiqalar qoldig’ini tekshirish ',
-    code: '*106# ',
+    code: '*106#',
   },
   {
     id: 5,
     title: 'SMSlar qoldig’ini tekshirish; ',
-    code: '*105# ',
+    code: '*105#',
   },
   {
     id: 6,
@@ -37,7 +37,7 @@ export const UssdCodesBeeline = [
   {
     id: 8,
     title: 'Facebook, Odnoklassniki, Telegram va TAS-IX uchun megabayt  ',
-    code: '*101# ',
+    code: '*101#',
   },
   {
     id: 9,

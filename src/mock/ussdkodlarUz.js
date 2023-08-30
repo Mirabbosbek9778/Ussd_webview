@@ -47,6 +47,6 @@ export const UssdCodes = [
   {
     id: 10,
     title: "Menga  qong'iroq  qiling  xizmati",
-    code: '*126*  #',
+    code: '*126#',
   },
 ];
