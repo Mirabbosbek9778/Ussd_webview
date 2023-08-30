@@ -326,3 +326,5 @@ export const mobiuzTarifs = [
     ],
   },
 ];
+
+// bn
