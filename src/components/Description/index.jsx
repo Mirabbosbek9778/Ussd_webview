@@ -2,7 +2,7 @@ import { BtnActive, Description, TitleText } from './style';
 import ModalButtons from '../ModalButton';
 import { useState } from 'react';
 
-const SingleCard = ({ description, package_name, price }) => {
+const SingleCard = (props) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const showModal = () => {
     setIsModalVisible(true);
@@ -10,12 +10,11 @@ const SingleCard = ({ description, package_name, price }) => {
   return (
     <>
       <TitleText>Tavsif</TitleText>
-      <Description>{description}</Description>
+      <Description>{props?.description}</Description>
       <ModalButtons
         shown={isModalVisible}
         close={setIsModalVisible}
-        dataName={package_name}
-        dataPrice={price}
+        data={props}
       />
       <BtnActive>
         <button onClick={showModal}>Paketni faollashtirish</button>
