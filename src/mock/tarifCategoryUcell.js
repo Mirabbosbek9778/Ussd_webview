@@ -1,21 +1,21 @@
 export const tariffUcell = [
   {
     category_id: 1,
-    name: 'Tariflar',
-    company_name: 'UzMobile',
-    category: 'Doimiy',
+    name: "Tariflar",
+    company_name: "UzMobile",
+    category: "Doimiy",
     tarifs: [
       {
         id: 1,
-        package_name: 'Doimiy 20',
+        package_name: "Doimiy 20",
         category_id: 1,
-        deadline: 'oylik',
-        time: 'cheksiz',
+        deadline: "oylik",
+        time: "cheksiz",
         ussd_code: `*120#`,
         price: 20000,
         sms: 500,
-        minutes: 'Cheksiz',
-        internet: '5 GB',
+        minutes: "Cheksiz",
+        internet: "5 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
             Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
             Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -41,15 +41,15 @@ export const tariffUcell = [
       },
       {
         id: 2,
-        package_name: 'Doimiy 35',
+        package_name: "Doimiy 35",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*120#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*120#",
         price: 35000,
         sms: 1000,
-        minutes: 'Cheksiz',
-        internet: '10 GB',
+        minutes: "Cheksiz",
+        internet: "10 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -76,15 +76,15 @@ export const tariffUcell = [
       },
       {
         id: 3,
-        package_name: 'DOIMIY 50 ',
+        package_name: "DOIMIY 50 ",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*120#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*120#",
         price: 50000,
-        sms: 0,
-        minutes: 'Cheksiz',
-        internet: ' 20 GB',
+        sms: 1500,
+        minutes: "Cheksiz",
+        internet: " 20 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -111,15 +111,15 @@ export const tariffUcell = [
       },
       {
         id: 4,
-        package_name: 'DOIMIY 70',
+        package_name: "DOIMIY 70",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*120#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*120#",
         price: 70000,
         sms: 2000,
-        minutes: 'Cheksiz',
-        internet: ' 35 GB',
+        minutes: "Cheksiz",
+        internet: " 35 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -146,15 +146,15 @@ export const tariffUcell = [
       },
       {
         id: 5,
-        package_name: 'DOIMIY 100',
+        package_name: "DOIMIY 100",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*120#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*120#",
         price: 100000,
-        sms: 0,
-        minutes: 'Cheksiz',
-        internet: '50 GB',
+        sms: 2500,
+        minutes: "Cheksiz",
+        internet: "50 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -181,15 +181,15 @@ export const tariffUcell = [
       },
       {
         id: 6,
-        package_name: ' DOIMIY 150 ',
+        package_name: " DOIMIY 150 ",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*120#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*120#",
         price: 150000,
-        sms: 0,
-        minutes: 'Cheksiz',
-        internet: '200 GB',
+        sms: 3000,
+        minutes: "Cheksiz",
+        internet: "200 GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.

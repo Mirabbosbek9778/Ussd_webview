@@ -1,4 +1,4 @@
-import { beeline, mobiuz, ucell, uzmobile } from '../assets';
+import { beeline, mobiuz, ucell, uzmobile } from "../assets";
 export const sildes = [
   {
     id: 1,

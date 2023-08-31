@@ -1,25 +1,25 @@
-import { useEffect, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-import { sildes } from '../../mock/silide';
-import { useCompany } from '../../context/Company';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import { sildes } from "../../mock/silide";
+import { useCompany } from "../../context/Company";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const checkCompany = (e) => {
   switch (e) {
     case 0:
-      return 'uzmobile';
+      return "uzmobile";
     case 1:
-      return 'beeline';
+      return "beeline";
     case 2:
-      return 'ucell';
+      return "ucell";
     case 3:
-      return 'mobiuz';
+      return "mobiuz";
     default:
-      return 'uzmobile';
+      return "uzmobile";
   }
 };
 
@@ -29,7 +29,7 @@ export default function Carosel() {
   const [, dispatch] = useCompany();
 
   useEffect(() => {
-    const storedIndex = localStorage.getItem('lastActiveSlide');
+    const storedIndex = localStorage.getItem("lastActiveSlide");
     if (storedIndex !== null) {
       setActiveSlide(Number(storedIndex));
       if (swiperRef) {
@@ -42,31 +42,31 @@ export default function Carosel() {
     const activeIndex = swiper.activeIndex;
     setActiveSlide(activeIndex);
     dispatch({
-      type: 'setCompany',
+      type: "setCompany",
       payload: checkCompany(activeIndex),
     });
-    localStorage.setItem('lastActiveSlide', activeIndex);
+    localStorage.setItem("lastActiveSlide", activeIndex);
   };
 
   return (
     <>
-      <div className=' h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]'>
+      <div className=" h-[190px] bg-[var(--bg-color)] pt-[10px] pb-[24px]">
         <Swiper
-          slidesPerView={'auto'}
+          slidesPerView={"auto"}
           centeredSlides={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
           initialSlide={Number(activeSlideIndex)}
-          className='w-full'
+          className="w-full"
           onSlideChange={handleSlideChange}
           onSwiper={setSwiperRef}
         >
           {sildes?.map((el) => (
-            <SwiperSlide key={el.id} className='flex justify-center'>
+            <SwiperSlide key={el.id} className="flex justify-center">
               <img
-                className='w-[291px] img-carusel  rounded-lg'
+                className="w-[291px] img-carusel  rounded-lg"
                 src={el.image}
-                alt='img'
+                alt="img"
               />
             </SwiperSlide>
           ))}

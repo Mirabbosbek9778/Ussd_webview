@@ -23,9 +23,10 @@ export const serviceBeelineUz = [
   },
   {
     id: 3,
-    title: `Yandex Plus`,
+    title: "Yandex Plus",
     icon: arrowR,
-    text: `• Hisobda abonent to‘lovi uchun yetarli mablag‘ bo‘lmaganda xizmat hisob to‘ldirilguniga qadar kutish rejimiga o‘tadi.`,
+    text:
+      "Hisobda abonent to‘lovi uchun yetarli mablag‘ bo‘lmaganda xizmat hisob to‘ldirilguniga qadar kutish rejimiga o‘tadi.",
     price: "9 999So'm/30 kun",
     activate: "*555#",
     description: `“Yandex Plus” obunasini hisobingiz orqali to‘lang va Yandex xizmatlaridan baxramand bo‘ling. “Yandex Musiqa”da sevimli taronalar, “Kinopoisk”dagi yuqori sifatli film va seriallar, “Bookmate” xizmatida elektron va audio kitoblar va hattoki Yandex Go xizmatida “Komfort” va undan yuqori tariflar uchun doimiy 10% chegirma, endi ushbu xizmatlar Sizning mobil trafikingizni sarflamaydi`,
@@ -50,7 +51,7 @@ export const serviceBeelineUz = [
   },
   {
     id: 6,
-    title: `BeeGudok`,
+    title: "BeeGudok",
     icon: arrowR,
     text: `Beeline o’z abonentlariga « BeeGudok » xizmatiga cheksiz trafik taqdim etadi!
     Musiqalar katalogi bilan saytda tanishib chiqing, sizga yoqqanini tanlang va osonlikcha o’z gudogingizga o’rnating.

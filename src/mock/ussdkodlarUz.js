@@ -16,7 +16,7 @@ export const UssdCodes = [
   },
   {
     id: 4,
-    title: "4G  akitv qilish",
+    title: "4G akitv qilish",
     code: "*111*1*7*1#",
   },
   {

@@ -1,21 +1,21 @@
 export const tariffUzmobile = [
   {
     category_id: 1,
-    name: 'Tariflar',
-    company_name: 'UzMobile',
-    category: 'Barakali',
+    name: "Tariflar",
+    company_name: "UzMobile",
+    category: "Barakali",
     tarifs: [
       {
         id: 1,
-        package_name: 'Barakali 22',
+        package_name: "Barakali 22",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
+        deadline: "oylik",
+        time: "",
         ussd_code: `*111*1*11*9#`,
         price: 22000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '6GB',
+        minutes: "Cheksiz",
+        internet: "6GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -41,15 +41,15 @@ export const tariffUzmobile = [
       },
       {
         id: 2,
-        package_name: 'Barakali 33',
+        package_name: "Barakali 33",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*10#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*10#",
         price: 33000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '9GB',
+        minutes: "Cheksiz",
+        internet: "9GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -76,15 +76,15 @@ export const tariffUzmobile = [
       },
       {
         id: 3,
-        package_name: 'Barakali 44',
+        package_name: "Barakali 44",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*11#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*11#",
         price: 44000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '14GB',
+        minutes: "Cheksiz",
+        internet: "14GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -111,15 +111,15 @@ export const tariffUzmobile = [
       },
       {
         id: 4,
-        package_name: 'Barakali 55',
+        package_name: "Barakali 55",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*12#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*12#",
         price: 55000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '22GB',
+        minutes: "Cheksiz",
+        internet: "22GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -146,15 +146,15 @@ export const tariffUzmobile = [
       },
       {
         id: 5,
-        package_name: 'Barakali 77',
+        package_name: "Barakali 77",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*13#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*13#",
         price: 77000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '35GB',
+        minutes: "Cheksiz",
+        internet: "35GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -181,15 +181,15 @@ export const tariffUzmobile = [
       },
       {
         id: 6,
-        package_name: 'Barakali 111',
+        package_name: "Barakali 111",
         category_id: 1,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*14#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*14#",
         price: 111000,
         sms: 0,
-        minutes: 'Cheksiz',
-        internet: '60GB',
+        minutes: "Cheksiz",
+        internet: "60GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -219,21 +219,21 @@ export const tariffUzmobile = [
   },
   {
     category_id: 2,
-    name: 'Tariflar_Units',
-    company_name: 'UzMobile',
-    category: 'Units',
+    name: "Tariflar_Units",
+    company_name: "UzMobile",
+    category: "Units",
     tarifs: [
       {
         id: 1,
-        package_name: 'Units 500',
+        package_name: "Units 500",
         category_id: 2,
-        deadline: 'kuniga',
-        time: '',
-        ussd_code: '*777*9#',
+        deadline: "kuniga",
+        time: "",
+        ussd_code: "*777*9#",
         price: 8000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -260,15 +260,15 @@ export const tariffUzmobile = [
       },
       {
         id: 2,
-        package_name: 'Units 700',
+        package_name: "Units 700",
         category_id: 2,
-        deadline: '7 kunga',
-        time: '',
-        ussd_code: '*777*1#',
+        deadline: "7 kunga",
+        time: "",
+        ussd_code: "*777*1#",
         price: 8000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -295,15 +295,15 @@ export const tariffUzmobile = [
       },
       {
         id: 3,
-        package_name: 'Units 1500',
+        package_name: "Units 1500",
         category_id: 2,
-        deadline: '15 kunga',
-        time: '',
-        ussd_code: '*777*2#',
+        deadline: "15 kunga",
+        time: "",
+        ussd_code: "*777*2#",
         price: 17000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -330,15 +330,15 @@ export const tariffUzmobile = [
       },
       {
         id: 4,
-        package_name: 'Units 5000',
+        package_name: "Units 5000",
         category_id: 2,
-        deadline: '28 kunga',
-        time: '',
-        ussd_code: '*777*3#',
+        deadline: "28 kunga",
+        time: "",
+        ussd_code: "*777*3#",
         price: 28000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -365,15 +365,15 @@ export const tariffUzmobile = [
       },
       {
         id: 5,
-        package_name: 'Units 8000',
+        package_name: "Units 8000",
         category_id: 2,
-        deadline: '30 kunga',
-        time: '',
-        ussd_code: '*777*4#',
+        deadline: "30 kunga",
+        time: "",
+        ussd_code: "*777*4#",
         price: 39000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -400,15 +400,15 @@ export const tariffUzmobile = [
       },
       {
         id: 6,
-        package_name: 'Units 11000',
+        package_name: "Units 11000",
         category_id: 2,
-        deadline: '30 kunga',
-        time: '',
-        ussd_code: '*777*5#',
+        deadline: "30 kunga",
+        time: "",
+        ussd_code: "*777*5#",
         price: 50000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -435,15 +435,15 @@ export const tariffUzmobile = [
       },
       {
         id: 7,
-        package_name: 'Units 14000',
+        package_name: "Units 14000",
         category_id: 2,
-        deadline: '30 kunga',
-        time: '',
-        ussd_code: '*777*6#',
+        deadline: "30 kunga",
+        time: "",
+        ussd_code: "*777*6#",
         price: 610000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -470,15 +470,15 @@ export const tariffUzmobile = [
       },
       {
         id: 8,
-        package_name: 'Units 18000',
+        package_name: "Units 18000",
         category_id: 2,
-        deadline: '30 kunga',
-        time: '',
-        ussd_code: '*777*7#',
+        deadline: "30 kunga",
+        time: "",
+        ussd_code: "*777*7#",
         price: 720000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -505,15 +505,15 @@ export const tariffUzmobile = [
       },
       {
         id: 9,
-        package_name: 'Units 22000',
+        package_name: "Units 22000",
         category_id: 2,
-        deadline: 'kunlik',
-        time: '',
-        ussd_code: '*777*8#',
+        deadline: "kunlik",
+        time: "",
+        ussd_code: "*777*8#",
         price: 830000,
-        sms: '1 Unit',
-        minutes: '1 Unit',
-        internet: '1 Unit',
+        sms: "1 Unit",
+        minutes: "1 Unit",
+        internet: "1 Unit",
         description: `Yechib olish:
         Internet xizmatidan foydalanilganda, Internet-trafik kvant tarifikatsiyasiga muvofiq 16 KV da yechib olinadi – “Units” mutanosib ravishda yechib olinadi (1 “Units” = 1 MB ga hisobida).
         SMSdan foydalanilganda, abonent resurslaridan har bir SMS uchun 1 “Units” birlik yechib olinadi (1 “Units” = 1 SMS).
@@ -542,21 +542,21 @@ export const tariffUzmobile = [
   },
   {
     category_id: 3,
-    name: 'Milliy_Tarifs',
-    company_name: 'UzMobile',
-    category: 'Milliy',
+    name: "Milliy_Tarifs",
+    company_name: "UzMobile",
+    category: "Milliy",
     tarifs: [
       {
         id: 1,
-        package_name: 'Milliy 2',
+        package_name: "Milliy 2",
         category_id: 3,
-        deadline: 'kuniga',
-        time: '',
-        ussd_code: '*111*1*11*9#',
+        deadline: "kuniga",
+        time: "",
+        ussd_code: "*111*1*11*9#",
         price: 2700,
         sms: 15,
-        minutes: '15',
-        internet: '500MB',
+        minutes: "15",
+        internet: "500MB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
           Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
           Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -582,15 +582,15 @@ export const tariffUzmobile = [
       },
       {
         id: 2,
-        package_name: 'Milliy 10',
+        package_name: "Milliy 10",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*1#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*1#",
         price: 13000,
         sms: 0,
-        minutes: '20',
-        internet: '1GB',
+        minutes: "20",
+        internet: "1GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -617,15 +617,15 @@ export const tariffUzmobile = [
       },
       {
         id: 3,
-        package_name: 'Milliy 15',
+        package_name: "Milliy 15",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*2#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*2#",
         price: 17000,
         sms: 500,
-        minutes: '100',
-        internet: '500MB',
+        minutes: "100",
+        internet: "500MB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -652,15 +652,15 @@ export const tariffUzmobile = [
       },
       {
         id: 4,
-        package_name: 'Milliy 40',
+        package_name: "Milliy 40",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*12#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*12#",
         price: 45000,
         sms: 3000,
-        minutes: 'Cheksiz',
-        internet: '8GB',
+        minutes: "Cheksiz",
+        internet: "8GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -687,15 +687,15 @@ export const tariffUzmobile = [
       },
       {
         id: 5,
-        package_name: 'Milliy 50',
+        package_name: "Milliy 50",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*3#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*3#",
         price: 57000,
         sms: 5000,
-        minutes: 'Cheksiz',
-        internet: '12GB',
+        minutes: "Cheksiz",
+        internet: "12GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -722,15 +722,15 @@ export const tariffUzmobile = [
       },
       {
         id: 6,
-        package_name: 'Milliy 70',
+        package_name: "Milliy 70",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*5#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*5#",
         price: 79000,
         sms: 5000,
-        minutes: 'Cheksiz',
-        internet: '20GB',
+        minutes: "Cheksiz",
+        internet: "20GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -758,15 +758,15 @@ export const tariffUzmobile = [
       },
       {
         id: 7,
-        package_name: 'Milliy 100',
+        package_name: "Milliy 100",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*6#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*6#",
         price: 110000,
         sms: 5000,
-        minutes: 'Cheksiz',
-        internet: '35GB',
+        minutes: "Cheksiz",
+        internet: "35GB",
         description: `*O‘zbekiston bo‘yicha daqiqalar/SMS limiti
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
         Ushbu tarif rejasiga (TR) ulanish va boshqa tarif rejalariga o‘tish UZTELECOM sotuv va xizmat ko‘rsatish ofislarida, dilerlik xizmat ko‘rsatish joylarida, shuningdek, MyUZTELECOM mobil ilovasi orqali amalga oshiriladi.
@@ -794,15 +794,15 @@ export const tariffUzmobile = [
       },
       {
         id: 6,
-        package_name: 'Milliy 150',
+        package_name: "Milliy 150",
         category_id: 3,
-        deadline: 'oylik',
-        time: '',
-        ussd_code: '*111*1*11*7#',
+        deadline: "oylik",
+        time: "",
+        ussd_code: "*111*1*11*7#",
         price: 165000,
         sms: 5000,
-        minutes: 'Cheksiz',
-        internet: '100GB',
+        minutes: "Cheksiz",
+        internet: "100GB",
         description: `02.12.2022-yildan dan tarif reja shartlariga o'zgartirishlar kiritildi
         O‘zbekiston bo‘yicha daqiqalar/SMS limiti.
         Oyiga 45 000 daqiqalik texnologik cheklov o‘rnatilgan. 45 000 daqiqadan so‘ng barcha chiquvchi qo‘ng‘iroqlar bloklanadi.
