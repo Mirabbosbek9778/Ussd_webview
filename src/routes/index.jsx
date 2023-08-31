@@ -6,10 +6,10 @@ import InternetPakets from '../pages/InternetPakets/index';
 import CallCenter from '../pages/CallCenter';
 import Services from '../pages/Services';
 import SingleServiceP from '../pages/Services/SingleServiceP';
-import InternetFullpackets from '../pages/InternetPakets/Packets/FullPackets';
-import InternetDetails from '../pages/InternetPakets/Packets/PacketDetail';
+import InternetFullpackets from '../pages/InternetPakets/FullPackets';
 import TariffDetail from '../pages/TarifPage/Details';
 import SingleCard from '../components/Description';
+import PacketDetail from '../pages/InternetPakets/PacketDetail';
 export const Routes = () => (
   <BrowserRoutes>
     <Route path='/' element={<Home />} />
@@ -73,7 +73,7 @@ export const Routes = () => (
     />
     <Route path='/internet' element={<InternetPakets />} />
     <Route path='/internet/full-packets' element={<InternetFullpackets />} />
-    <Route path='/internet/:id' element={<InternetDetails />} />
+    <Route path='/internet/:id' element={<PacketDetail />} />
     <Route
       path='/services'
       element={

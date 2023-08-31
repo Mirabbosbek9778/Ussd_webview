@@ -9,7 +9,6 @@ import { BtnActive2 } from "./style";
 const SingleServiceP = () => {
   const { id } = useParams();
   const selectedElem = Services.filter((item) => item.id.toString() === id);
-  //   console.log(selectedElem);
   return (
     <div>
       <TopBar title={selectedElem[0].title} />

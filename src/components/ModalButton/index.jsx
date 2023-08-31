@@ -4,7 +4,6 @@ import { callUssd } from "../../utils";
 const ModalButtons = (props) => {
   const handleOk = () => {
     props?.close(false);
-    console.log(props);
   };
 
   const handleCancel = () => {
