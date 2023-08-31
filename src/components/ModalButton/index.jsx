@@ -22,7 +22,7 @@ const ModalButtons = (props) => {
             <BtnP className='text-center'>
               Siz {props?.data?.package_name} tarifini{' '}
               <p>faollashtirmoqchisiz</p>
-              O’tish narxi:{props?.price?.price} so’m
+              O’tish narxi:{props?.data?.price} so’m
             </BtnP>
           </div>
         }
