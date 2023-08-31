@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import TopBar from '../../../components/TopBar';
-import TarifCard from '../../../components/Generic/cards/TarifCard';
+import InternetCard from '../../../components/Generic/cards/InternetPacketCard';
 import Copy from '../../../components/Copy';
 import SingleCard from '../../../components/Description';
 import ModalButtons from '../../../components/ModalButton';
@@ -11,9 +11,9 @@ const PacketDetail = () => {
   return (
     <>
       <div className='h-[89px]'></div>
-      <TopBar title='Tarif Rejalar' />
+      <TopBar title='Internet paketlar' />
       <div className='flex flex-col p-4 gap-4'>
-        <TarifCard {...packetsDetail} detail />
+        <InternetCard {...packetsDetail} detail />
         <Copy activate={packetsDetail?.ussd_code} />
         <SingleCard {...packetsDetail} />
         <ModalButtons

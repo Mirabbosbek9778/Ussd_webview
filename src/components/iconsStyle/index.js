@@ -17,6 +17,7 @@ import { ReactComponent as copyIcon } from '../../assets/icons/copyIcon.svg';
 import { ReactComponent as messageIcon } from '../../assets/icons/sms.svg';
 import { ReactComponent as phoneIcons } from '../../assets/icons/phone.svg';
 import { ReactComponent as wallet } from '../../assets/icons/wallet.svg';
+import { ReactComponent as clock } from '../../assets/icons/clock.svg';
 
 const WalletIcon = styled(wallet)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
@@ -161,6 +162,16 @@ const CopyIcon = styled(copyIcon)`
   }
 `;
 
+const ClockIcon = styled(clock)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
+  path {
+    fill: ${({ color }) => color || 'var(--icon-size)'};
+    stroke: ${({ color }) => color || 'var(--icon-color)'};
+  }
+`;
+
 export {
   MainTabIcon,
   Services,
@@ -180,4 +191,5 @@ export {
   MessageIcon,
   PhoneIcon,
   WalletIcon,
+  ClockIcon,
 };
