@@ -1,5 +1,11 @@
-@layer components {
-    .category-card {
-        @apply w-11/12 flex items-center my-5 h-[80px] bg-[var(--card-color)] rounded-md justify-around shadow
-    }
+.category-card-layout {
+  @apply w-full flex flex-col items-center overflow-y-scroll gap-4 px-4 pb-[90px];
+}
+
+.category-card-layout::-webkit-scrollbar {
+  display: none;
+}
+
+.category-card {
+  @apply w-full flex items-center  cursor-pointer select-none py-[18px] px-[14px] bg-[var(--card-color)] rounded-xl justify-between shadow;
 }

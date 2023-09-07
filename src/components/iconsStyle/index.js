@@ -12,6 +12,36 @@ import { ReactComponent as operatorMenuIcon } from '../../assets/icons/operatos.
 import { ReactComponent as active_main } from '../../assets/icons/active_main.svg';
 import { ReactComponent as active_services } from '../../assets/icons/active_services.svg';
 import { ReactComponent as active_setting } from '../../assets/icons/active_setting.svg';
+import { ReactComponent as arrowLeft } from '../../assets/icons/arrowL.svg';
+import { ReactComponent as copyIcon } from '../../assets/icons/copyIcon.svg';
+import { ReactComponent as messageIcon } from '../../assets/icons/sms.svg';
+import { ReactComponent as phoneIcons } from '../../assets/icons/phone.svg';
+import { ReactComponent as wallet } from '../../assets/icons/wallet.svg';
+import { ReactComponent as clock } from '../../assets/icons/clock.svg';
+
+const WalletIcon = styled(wallet)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
+
+const MessageIcon = styled(messageIcon)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
+
+const PhoneIcon = styled(phoneIcons)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  path {
+    stroke: ${({ color }) => color || 'var( --icon-color)'};
+  }
+`;
 
 const MainTabIcon = styled(MainIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
@@ -54,12 +84,12 @@ const ActiveSettings = styled(active_setting)`
 `;
 
 const CategoryCardArrow = styled(CategoryCardIcon)`
-  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  /* width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
     fill: ${({ color }) => color || 'var(--icon-size)'};
     stroke: ${({ color }) => color || 'var(--icon-color)'};
-  }
+  } */
 `;
 
 const UssdMenuIcon = styled(ussdMenuIcon)`
@@ -80,7 +110,7 @@ const TarifMenuIcon = styled(tarifMenuIcon)`
   }
 `;
 
-const TnternetMenuIcon = styled(internetMenuIcon)`
+const InternetMenuIcon = styled(internetMenuIcon)`
   width: ${({ width }) => (width ? width : 'var(--icon-size)')};
   height: ${({ height }) => (height ? height : 'var(--icon-size)')};
   path {
@@ -116,6 +146,32 @@ const OperatorMenuIcon = styled(operatorMenuIcon)`
   }
 `;
 
+const ArrowIcon = styled(arrowLeft)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
+`;
+
+const CopyIcon = styled(copyIcon)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
+  path {
+    fill: ${({ color }) => color || 'var(--icon-size)'};
+    stroke: ${({ color }) => color || 'var(--icon-color)'};
+  }
+`;
+
+const ClockIcon = styled(clock)`
+  width: ${({ width }) => (width ? width : 'var(--icon-size)')};
+  height: ${({ height }) => (height ? height : 'var(--icon-size)')};
+  cursor: pointer;
+  path {
+    fill: ${({ color }) => color || 'var(--icon-size)'};
+    stroke: ${({ color }) => color || 'var(--icon-color)'};
+  }
+`;
+
 export {
   MainTabIcon,
   Services,
@@ -123,11 +179,17 @@ export {
   CategoryCardArrow,
   UssdMenuIcon,
   TarifMenuIcon,
-  TnternetMenuIcon,
+  InternetMenuIcon,
   ServiceMenuIcon,
   RestMenuIcon,
   OperatorMenuIcon,
   ActiveMainTabIcon,
   ActiveServices,
   ActiveSettings,
+  ArrowIcon,
+  CopyIcon,
+  MessageIcon,
+  PhoneIcon,
+  WalletIcon,
+  ClockIcon,
 };

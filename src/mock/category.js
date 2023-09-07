@@ -1,10 +1,10 @@
 import {
   internetMenuIcon,
-  operatorMenuIcon,
   restMenuIcon,
   serviceMenuIcon,
   tarifMenuIcon,
   ussdMenuIcon,
+  operatorMenuIcon,
 } from "../assets";
 
 export const category = [
@@ -12,32 +12,32 @@ export const category = [
     id: 1,
     name: "Ussd kodlar",
     icon: ussdMenuIcon,
+    path: "/ussd",
   },
   {
     id: 2,
     name: "Tarif rejalar",
     icon: tarifMenuIcon,
+    path: "/tarif",
   },
   {
     id: 3,
     name: "Internet",
     icon: internetMenuIcon,
+    path: "/internet",
   },
   {
     id: 4,
     name: "Xizmatlar",
     icon: serviceMenuIcon,
+    path: "/services",
   },
   {
     id: 5,
-    name: "Restart xizmati",
-    icon: restMenuIcon,
+    name: "Operator bilan Aloqa",
+    icon: operatorMenuIcon,
+    path: "/call-center",
   },
-//   {
-//     id: 6,
-//     name: "Operator bilan bog’lanish",
-//     icon: operatorMenuIcon,
-//   },
 ];
 
 export const sms = [
@@ -79,47 +79,6 @@ export const sms = [
     ],
   },
 ];
-
-export const internet = [
-  {
-    category_id: 2,
-    name: "Internet",
-    company_name: "Beeline",
-    pakets: [
-      {
-        id: 1,
-        package_name: "1 GB",
-        category_id: 2,
-        deadline: "oylik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        description: "bu yerda description bo'ladi",
-      },
-      {
-        id: 2,
-        package_name: "10 GB",
-        category_id: 2,
-        deadline: "haftalik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        description: "bu yerda description bo'ladi",
-      },
-      {
-        id: 3,
-        package_name: "15 GB",
-        category_id: 2,
-        deadline: "kunlik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        description: "bu yerda description bo'ladi",
-      },
-    ],
-  },
-];
-
 export const phone = [
   {
     category_id: 3,
@@ -154,55 +113,6 @@ export const phone = [
         time: "",
         ussd_code: "*100#",
         price: 15000,
-        description: "bu yerda description bo'ladi",
-      },
-    ],
-  },
-];
-
-export const tariff = [
-  {
-    category_id: 4,
-    name: "Tariflar",
-    company_name: "Beeline",
-    tarifs: [
-      {
-        id: 1,
-        package_name: "Barakali 22",
-        category_id: 4,
-        deadline: "oylik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
-        description: "bu yerda description bo'ladi",
-      },
-      {
-        id: 2,
-        package_name: "Barakali 24",
-        category_id: 4,
-        deadline: "oylik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
-        description: "bu yerda description bo'ladi",
-      },
-      {
-        id: 3,
-        package_name: "Barakali 23",
-        category_id: 4,
-        deadline: "oylik",
-        time: "",
-        ussd_code: "*100#",
-        price: 15000,
-        sms: "500 sms",
-        minutes: "1000 daq",
-        internet: "1000 GB",
         description: "bu yerda description bo'ladi",
       },
     ],
